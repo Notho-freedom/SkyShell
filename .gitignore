@@ -1,1 +1,3 @@
 SkyShell/
+# SkyShell/.gitignore
+.env

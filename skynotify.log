@@ -1,0 +1,41 @@
+[2025-07-14 22:17:56,329] INFO - httpx - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+[2025-07-14 22:17:56,332] INFO - SkyNotify - Démarrage de SkyNotify Pro
+[2025-07-14 22:19:06,130] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-14 22:19:06,751] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-14 22:19:06,753] INFO - SkyNotify - Message alerte: Alerte système, SkyOS. Disk space critically low, 95.5 capacity reached. Immediate attention required to prevent data loss. All other systems nominal.
+[2025-07-14 22:21:01,999] INFO - SkyNotify - Arrêt demandé par l'utilisateur
+[2025-07-14 22:21:02,032] INFO - SkyNotify - SkyNotify Pro arrêté
+[2025-07-14 22:21:10,763] INFO - httpx - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+[2025-07-14 22:21:10,767] INFO - SkyNotify - Démarrage de SkyNotify Pro
+[2025-07-14 22:22:19,327] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-14 22:22:27,477] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-14 22:22:27,479] INFO - SkyNotify - Message alerte: Attention, le système SkyOS est en état critique. L'espace disque est presque saturé 95,5. Il est recommandé de libérer de l'espace disque pour éviter
+[2025-07-14 22:23:12,322] INFO - SkyNotify - Arrêt demandé par l'utilisateur
+[2025-07-14 22:23:12,352] INFO - SkyNotify - SkyNotify Pro arrêté
+[2025-07-14 22:24:09,155] INFO - httpx - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+[2025-07-14 22:24:09,159] INFO - SkyNotify - Démarrage de SkyNotify Pro
+[2025-07-14 22:25:18,966] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-14 22:25:19,250] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[2025-07-14 22:25:19,251] WARNING - SkyNotify - Erreur Groq completion (modèle mistral-saba-24b) : Error code: 400 - {'error': {'message': 'The model `mistral-saba-24b` requires terms acceptance. Please have the org admin accept the terms at https://console.groq.com/playground?model=mistral-saba-24b', 'type': 'invalid_request_error', 'code': 'model_terms_required'}}
+[2025-07-14 22:25:19,810] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-14 22:25:19,812] INFO - SkyNotify - Message alerte: Attention, système critique atteint. Le disque est presque plein 95,5. Veuillez libérer de l'espace pour éviter les perturbations. Les autres paramètres sont stables processeur à 3,3, mémoire à 50 et température normale.
+[2025-07-14 22:27:27,650] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-14 22:27:28,522] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-14 22:27:28,523] INFO - SkyNotify - Message alerte: Alerte système ! CPU à 77,7 et en augmentation, RAM à 66,7 et en croissance également. Disque dur critique à 95,5, mais stable pour l'instant. Statut global critique. Veuillez prendre des mesures pour réduire la charge système.
+[2025-07-14 22:29:33,264] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-14 22:29:34,138] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-14 22:29:34,141] INFO - SkyNotify - Message alerte: Alerte système ! La charge du processeur a atteint 100, la mémoire vive est à 76,3 et le disque dur est presque plein à 95,5. Le système est en état critique, veuillez prendre des mesures pour réduire la charge et éviter une panne.
+[2025-07-14 22:31:40,840] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-14 22:31:41,516] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-14 22:31:41,520] INFO - SkyNotify - Message alerte: Alerte système ! Les ressources sont sollicitées à 71,1 pour le CPU et 79,1 pour la RAM, avec une augmentation constante. Le disque est critique à 95,5. Veuillez prendre des mesures pour réduire la charge et éviter une panne système.
+[2025-07-14 22:33:48,035] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-14 22:33:48,952] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-14 22:33:48,953] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque plein, à 95,5 de capacité. Il est urgent de libérer de l'espace pour éviter une perte de performances. Vérifiez vos fichiers et supprimez les éléments inutiles.
+[2025-07-14 22:35:57,036] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-14 22:35:57,687] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-14 22:35:57,687] INFO - SkyNotify - Message alerte: Alerte système ! Le disque est presque saturé, à 95,5 de capacité. Bien que les processeurs et la mémoire vive soient dans une zone de sécurité, il est urgent de libérer de l'espace de stockage pour éviter tout ralentissement ou perte de données.
+[2025-07-14 22:38:09,976] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-14 22:38:10,819] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-14 22:38:10,820] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque saturé, à 95,5 de capacité. Il est urgent de libérer de l'espace pour éviter une perte de données. Veuillez prendre des mesures immédiates pour réduire l'occupation du disque.
+[2025-07-14 22:38:45,095] INFO - SkyNotify - Arrêt demandé par l'utilisateur
+[2025-07-14 22:38:45,122] INFO - SkyNotify - SkyNotify Pro arrêté

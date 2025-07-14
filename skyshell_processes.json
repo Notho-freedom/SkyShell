@@ -4,7 +4,6 @@
         "name": "System Idle Process",
         "exe": "",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -13,7 +12,6 @@
         "name": "System",
         "exe": "",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -22,7 +20,6 @@
         "name": "",
         "exe": "",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -31,7 +28,6 @@
         "name": "Registry",
         "exe": "Registry",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -40,7 +36,6 @@
         "name": "Code.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -55,7 +50,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -75,7 +69,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -84,7 +77,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -93,7 +85,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -102,7 +93,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -202,7 +192,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -217,16 +206,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 3188,
-        "name": "opera.exe",
-        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
-        "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -246,7 +225,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -255,7 +233,6 @@
         "name": "MSI_TraceFPS.exe",
         "exe": "C:\\Program Files (x86)\\MSI\\MSI Companion\\MSI_TraceFPS.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -264,7 +241,6 @@
         "name": "Code.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -273,7 +249,6 @@
         "name": "QMEmulatorService.exe",
         "exe": "C:\\Program Files\\TxGameAssistant\\AppMarket\\QMEmulatorService.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -288,7 +263,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -297,7 +271,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -306,7 +279,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -315,7 +287,6 @@
         "name": "MSI.CentralServer.exe",
         "exe": "C:\\Program Files (x86)\\MSI\\MSI Center\\MSI.CentralServer.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -324,7 +295,6 @@
         "name": "MSI_Central_Service.exe",
         "exe": "C:\\Program Files (x86)\\MSI\\MSI Center\\MSI_Central_Service.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -333,7 +303,6 @@
         "name": "MSIAPService.exe",
         "exe": "C:\\Program Files (x86)\\MSI\\MSI NBFoundation Service\\MSIAPService.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -342,7 +311,6 @@
         "name": "MSI_Companion_Service.exe",
         "exe": "C:\\Program Files (x86)\\MSI\\MSI Center\\Game Highlights\\MSI_Companion_Service.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -351,7 +319,6 @@
         "name": "Sendevsvc.exe",
         "exe": "C:\\Program Files (x86)\\MSI\\MSI NBFoundation Service\\Sendevsvc.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -360,7 +327,6 @@
         "name": "nvcontainer.exe",
         "exe": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -369,7 +335,6 @@
         "name": "MsMpEng.exe",
         "exe": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25050.5-0\\MsMpEng.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -378,7 +343,6 @@
         "name": "spacedeskService.exe",
         "exe": "C:\\Program Files\\datronicsoft\\spacedesk\\spacedeskService.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -387,7 +351,6 @@
         "name": "MpDefenderCoreService.exe",
         "exe": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25050.5-0\\MpDefenderCoreService.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -396,6 +359,11 @@
         "name": "explorer.exe",
         "exe": "C:\\Windows\\explorer.exe",
         "windows": [
+            {
+                "title": "Changement de tâche",
+                "is_visible": false,
+                "is_minimized": false
+            },
             {
                 "title": "Jauge de batterie",
                 "is_visible": false,
@@ -407,9 +375,9 @@
                 "is_minimized": false
             },
             {
-                "title": "Ravel : personnel : Explorateur de fichiers",
+                "title": "C:\\Users\\bobim\\OneDrive\\black m : Explorateur de fichiers",
                 "is_visible": true,
-                "is_minimized": true
+                "is_minimized": false
             },
             {
                 "title": "100% terminé",
@@ -457,6 +425,11 @@
                 "is_minimized": false
             },
             {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
                 "title": "Default IME",
                 "is_visible": false,
                 "is_minimized": false
@@ -472,12 +445,12 @@
                 "is_minimized": false
             },
             {
-                "title": "Default IME",
+                "title": "MSCTFIME UI",
                 "is_visible": false,
                 "is_minimized": false
             },
             {
-                "title": "MSCTFIME UI",
+                "title": "Default IME",
                 "is_visible": false,
                 "is_minimized": false
             },
@@ -582,16 +555,14 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": true,
-        "is_minimized": true
+        "is_minimized": false
     },
     {
         "pid": 5860,
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -600,16 +571,6 @@
         "name": "msedge.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
         "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 6132,
-        "name": "opera.exe",
-        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
-        "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -618,7 +579,6 @@
         "name": "LockApp.exe",
         "exe": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -627,7 +587,6 @@
         "name": "pwsh.exe",
         "exe": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -647,7 +606,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -656,7 +614,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -691,7 +648,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -700,7 +656,6 @@
         "name": "pwsh.exe",
         "exe": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -709,7 +664,6 @@
         "name": "msedge.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -718,7 +672,14 @@
         "name": "NVIDIA Overlay.exe",
         "exe": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
         "windows": [],
-        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 8172,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
         "is_visible": false,
         "is_minimized": false
     },
@@ -727,7 +688,6 @@
         "name": "PresentationFontCache.exe",
         "exe": "C:\\Windows\\Microsoft.NET\\Framework64\\v3.0\\WPF\\PresentationFontCache.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -736,7 +696,6 @@
         "name": "WindowsPackageManagerServer.exe",
         "exe": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.26.400.0_x64__8wekyb3d8bbwe\\WindowsPackageManagerServer.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -745,7 +704,6 @@
         "name": "NVIDIA Overlay.exe",
         "exe": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -754,7 +712,6 @@
         "name": "NisSrv.exe",
         "exe": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25050.5-0\\NisSrv.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -763,7 +720,6 @@
         "name": "pwsh.exe",
         "exe": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -772,7 +728,14 @@
         "name": "msedgewebview2.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
         "windows": [],
-        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 9416,
+        "name": "python3.11.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\python3.11.exe",
+        "windows": [],
         "is_visible": false,
         "is_minimized": false
     },
@@ -802,7 +765,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -811,7 +773,6 @@
         "name": "Code.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -841,7 +802,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -896,7 +856,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": true,
         "is_minimized": false
     },
@@ -905,7 +864,6 @@
         "name": "Code.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -914,7 +872,6 @@
         "name": "Code.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -929,7 +886,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -938,7 +894,6 @@
         "name": "msedgewebview2.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -953,7 +908,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -973,7 +927,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -982,7 +935,6 @@
         "name": "Code.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -991,7 +943,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1000,7 +951,6 @@
         "name": "Code.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1009,7 +959,14 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 11932,
+        "name": "pythonw.exe",
+        "exe": "C:\\Users\\bobim\\.codegeex\\mamba\\envs\\codegeex-agent\\pythonw.exe",
+        "windows": [],
         "is_visible": false,
         "is_minimized": false
     },
@@ -1018,7 +975,6 @@
         "name": "SearchHost.exe",
         "exe": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1027,7 +983,6 @@
         "name": "StartMenuExperienceHost.exe",
         "exe": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1036,7 +991,6 @@
         "name": "FileCoAuth.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Microsoft\\OneDrive\\25.115.0615.0002\\FileCoAuth.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1051,7 +1005,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1060,7 +1013,6 @@
         "name": "IGCC.exe",
         "exe": "C:\\Program Files\\WindowsApps\\appup.intelgraphicsexperience_1.100.5688.0_x64__8j3eq9eme6ctt\\IGCC.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1069,7 +1021,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1078,7 +1029,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1087,7 +1037,6 @@
         "name": "WidgetService.exe",
         "exe": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.9.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1102,7 +1051,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1172,7 +1120,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": true
     },
@@ -1181,7 +1128,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1190,7 +1136,6 @@
         "name": "Code.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1199,7 +1144,6 @@
         "name": "NVIDIA Overlay.exe",
         "exe": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1208,7 +1152,6 @@
         "name": "msedgewebview2.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1217,7 +1160,6 @@
         "name": "msedgewebview2.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1226,7 +1168,6 @@
         "name": "ShellExperienceHost.exe",
         "exe": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1235,7 +1176,6 @@
         "name": "msedgewebview2.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1244,7 +1184,6 @@
         "name": "msedgewebview2.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1253,7 +1192,6 @@
         "name": "msedgewebview2.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1262,7 +1200,6 @@
         "name": "msedgewebview2.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1271,7 +1208,6 @@
         "name": "msedgewebview2.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1286,7 +1222,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1306,7 +1241,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": true,
         "is_minimized": false
     },
@@ -1315,7 +1249,6 @@
         "name": "msedge.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1324,7 +1257,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1349,7 +1281,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1359,7 +1290,7 @@
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [
             {
-                "title": "Exploiting Neo4j for Advanced Data Analysis - DeepSeek - Opera",
+                "title": "Nouvelle idée projet - Opera",
                 "is_visible": true,
                 "is_minimized": false
             },
@@ -1379,7 +1310,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": true,
         "is_minimized": false
     },
@@ -1388,7 +1318,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1397,7 +1326,6 @@
         "name": "Code.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1422,7 +1350,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": true,
         "is_minimized": false
     },
@@ -1477,7 +1404,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1527,7 +1453,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": true,
         "is_minimized": false
     },
@@ -1536,7 +1461,6 @@
         "name": "pet.exe",
         "exe": "C:\\Users\\bobim\\.vscode\\extensions\\ms-python.python-2025.10.0-win32-x64\\python-env-tools\\bin\\pet.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1551,7 +1475,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1571,7 +1494,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1580,7 +1502,6 @@
         "name": "msedge.exe",
         "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1589,7 +1510,6 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1609,7 +1529,6 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1618,7 +1537,6 @@
         "name": "NVIDIA Overlay.exe",
         "exe": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
@@ -1627,165 +1545,19 @@
         "name": "opera.exe",
         "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
     {
-        "pid": 19164,
-        "name": "opera.exe",
-        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "pid": 19160,
+        "name": "pythonw.exe",
+        "exe": "C:\\Users\\bobim\\.codegeex\\mamba\\envs\\codegeex-agent\\pythonw.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
     {
-        "pid": 19396,
-        "name": "opera.exe",
-        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
-        "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 19412,
-        "name": "msedge.exe",
-        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-        "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 19444,
-        "name": "opera.exe",
-        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
-        "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 19668,
-        "name": "Code.exe",
-        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
-        "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 19688,
-        "name": "msedge.exe",
-        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-        "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 19796,
-        "name": "msedge.exe",
-        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-        "windows": [
-            {
-                "title": "Default IME",
-                "is_visible": false,
-                "is_minimized": false
-            }
-        ],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 19920,
-        "name": "opera.exe",
-        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
-        "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 20064,
-        "name": "msedge.exe",
-        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-        "windows": [
-            {
-                "title": "Default IME",
-                "is_visible": false,
-                "is_minimized": false
-            }
-        ],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 20280,
-        "name": "WhatsApp.exe",
-        "exe": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2527.2.0_x64__cv1g1gvanyjgm\\WhatsApp.exe",
-        "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 20324,
-        "name": "opera.exe",
-        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
-        "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 20516,
-        "name": "Code.exe",
-        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
-        "windows": [
-            {
-                "title": "Default IME",
-                "is_visible": false,
-                "is_minimized": false
-            }
-        ],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 20812,
-        "name": "pwsh.exe",
-        "exe": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe",
-        "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 21320,
-        "name": "opera.exe",
-        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
-        "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 22372,
-        "name": "Code.exe",
-        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
-        "windows": [],
-        "category": "background",
-        "is_visible": false,
-        "is_minimized": false
-    },
-    {
-        "pid": 22564,
+        "pid": 19392,
         "name": "Microsoft.Media.Player.exe",
         "exe": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_11.2505.2.0_x64__8wekyb3d8bbwe\\Microsoft.Media.Player.exe",
         "windows": [
@@ -1805,25 +1577,160 @@
                 "is_minimized": false
             }
         ],
-        "category": "background",
         "is_visible": true,
         "is_minimized": false
     },
     {
-        "pid": 24388,
-        "name": "python.exe",
-        "exe": "C:\\Users\\bobim\\SkyShell\\SkyShell\\Scripts\\python.exe",
+        "pid": 19396,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
         "windows": [],
-        "category": "background",
         "is_visible": false,
         "is_minimized": false
     },
     {
-        "pid": 24552,
-        "name": "python3.11.exe",
-        "exe": "C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\python3.11.exe",
+        "pid": 19412,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
         "windows": [],
-        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19444,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19668,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19688,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "windows": [],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19796,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19872,
+        "name": "pythonw.exe",
+        "exe": "C:\\Users\\bobim\\.codegeex\\mamba\\envs\\codegeex-agent\\pythonw.exe",
+        "windows": [],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19920,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20064,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20224,
+        "name": "pythonw.exe",
+        "exe": "C:\\Users\\bobim\\.codegeex\\mamba\\envs\\codegeex-agent\\pythonw.exe",
+        "windows": [],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20280,
+        "name": "WhatsApp.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2527.2.0_x64__cv1g1gvanyjgm\\WhatsApp.exe",
+        "windows": [],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20324,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20516,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20588,
+        "name": "python.exe",
+        "exe": "C:\\Users\\bobim\\SkyShell\\SkyShell\\Scripts\\python.exe",
+        "windows": [],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20812,
+        "name": "pwsh.exe",
+        "exe": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe",
+        "windows": [],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 22372,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 24476,
+        "name": "pwsh.exe",
+        "exe": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe",
+        "windows": [],
         "is_visible": false,
         "is_minimized": false
     }
