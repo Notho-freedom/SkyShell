@@ -1,0 +1,1830 @@
+[
+    {
+        "pid": 0,
+        "name": "System Idle Process",
+        "exe": "",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 4,
+        "name": "System",
+        "exe": "",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 236,
+        "name": "",
+        "exe": "",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 280,
+        "name": "Registry",
+        "exe": "Registry",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 1128,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 2052,
+        "name": "XboxPcAppFT.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\microsoft.gamingapp_2506.1001.20.0_x64__8wekyb3d8bbwe\\XboxPcAppFT.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 2080,
+        "name": "CrossDeviceResume.exe",
+        "exe": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+        "windows": [
+            {
+                "title": "CrossDeviceResumeWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 2200,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 2532,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 2624,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 2636,
+        "name": "nvcontainer.exe",
+        "exe": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+        "windows": [
+            {
+                "title": "BroadcastListenerWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "BroadcastListenerWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "BroadcastListenerWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "BroadcastListenerWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "BroadcastListenerWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "BroadcastListenerWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "BroadcastListenerWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "BroadcastListenerWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "NvContainerWindowClass00000A4C",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 3144,
+        "name": "MSI_GamebarTool.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI Companion\\MSI_GamebarTool.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 3188,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 3672,
+        "name": "Gamebar_Connect.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI Companion\\Gamebar_Connect.exe",
+        "windows": [
+            {
+                "title": "SystemResourceNotifyWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 3704,
+        "name": "MSI_TraceFPS.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI Companion\\MSI_TraceFPS.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 3788,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 3864,
+        "name": "QMEmulatorService.exe",
+        "exe": "C:\\Program Files\\TxGameAssistant\\AppMarket\\QMEmulatorService.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 4804,
+        "name": "opera_crashreporter.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\119.0.5497.186\\opera_crashreporter.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 4812,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5304,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5324,
+        "name": "MSI.CentralServer.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI Center\\MSI.CentralServer.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5476,
+        "name": "MSI_Central_Service.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI Center\\MSI_Central_Service.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5500,
+        "name": "MSIAPService.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI NBFoundation Service\\MSIAPService.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5516,
+        "name": "MSI_Companion_Service.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI Center\\Game Highlights\\MSI_Companion_Service.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5540,
+        "name": "Sendevsvc.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI NBFoundation Service\\Sendevsvc.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5584,
+        "name": "nvcontainer.exe",
+        "exe": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5628,
+        "name": "MsMpEng.exe",
+        "exe": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25050.5-0\\MsMpEng.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5652,
+        "name": "spacedeskService.exe",
+        "exe": "C:\\Program Files\\datronicsoft\\spacedesk\\spacedeskService.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5660,
+        "name": "MpDefenderCoreService.exe",
+        "exe": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25050.5-0\\MpDefenderCoreService.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5700,
+        "name": "explorer.exe",
+        "exe": "C:\\Windows\\explorer.exe",
+        "windows": [
+            {
+                "title": "Jauge de batterie",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Fenêtre de dépassement de capacité de la barre d’état système.",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Ravel : personnel : Explorateur de fichiers",
+                "is_visible": true,
+                "is_minimized": true
+            },
+            {
+                "title": "100% terminé",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "DesktopWindowXamlSource",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "DesktopWindowXamlSource",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "GDI+ Window (Explorer.EXE)",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MS_WebcheckMonitor",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "BluetoothNotificationAreaIconWindowClass",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MiracastConnectionWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "DDE Server Window",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Program Manager",
+                "is_visible": true,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": true,
+        "is_minimized": true
+    },
+    {
+        "pid": 5860,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 5960,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 6132,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 6280,
+        "name": "LockApp.exe",
+        "exe": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 6716,
+        "name": "pwsh.exe",
+        "exe": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 6748,
+        "name": "nvsphelper64.exe",
+        "exe": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\ShadowPlay\\nvsphelper64.exe",
+        "windows": [
+            {
+                "title": "{1274D398-C3C8-422E-87DD-2FAFFD5A7F2F}",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 7032,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 7160,
+        "name": "spacedeskServiceTray.exe",
+        "exe": "C:\\Program Files\\datronicsoft\\spacedesk\\spacedeskServiceTray.exe",
+        "windows": [
+            {
+                "title": "spacedesk DRIVER for PRIMARY Machine (Server)",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "spacedesk DRIVER for PRIMARY Machine (Server)",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "spacedesk Connection Notification",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 7408,
+        "name": "pwsh.exe",
+        "exe": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 7512,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 7992,
+        "name": "NVIDIA Overlay.exe",
+        "exe": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 8204,
+        "name": "PresentationFontCache.exe",
+        "exe": "C:\\Windows\\Microsoft.NET\\Framework64\\v3.0\\WPF\\PresentationFontCache.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 8708,
+        "name": "WindowsPackageManagerServer.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.26.400.0_x64__8wekyb3d8bbwe\\WindowsPackageManagerServer.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 8736,
+        "name": "NVIDIA Overlay.exe",
+        "exe": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 8820,
+        "name": "NisSrv.exe",
+        "exe": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25050.5-0\\NisSrv.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 8888,
+        "name": "pwsh.exe",
+        "exe": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 9228,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 9448,
+        "name": "nvcontainer.exe",
+        "exe": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+        "windows": [
+            {
+                "title": "UxdService",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "NvContainerWindowClass000024E8",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 9712,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 9772,
+        "name": "nvcontainer.exe",
+        "exe": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+        "windows": [
+            {
+                "title": "{2A335767-FC94-417F-ABC4-B4122ADBEE60}",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "NvContainerWindowClass0000262C",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 9984,
+        "name": "OmApSvcBroker.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI NBFoundation Service\\OmApSvcBroker.exe",
+        "windows": [
+            {
+                "title": "OmApSvcBroker",
+                "is_visible": true,
+                "is_minimized": false
+            },
+            {
+                "title": "Hidden Window",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": ".NET-BroadcastEventWindow.4.0.0.0.3b71a63.0",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "SystemResourceNotifyWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MediaContextNotificationWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "CiceroUIWndFrame",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "CiceroUIWndFrame",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": true,
+        "is_minimized": false
+    },
+    {
+        "pid": 10056,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 10072,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 10260,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 10524,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 10836,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 11184,
+        "name": "MSI.TerminalServer.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI Center\\MSI.TerminalServer.exe",
+        "windows": [
+            {
+                "title": ".NET-BroadcastEventWindow.4.0.0.0.232467a.0",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 11480,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 11500,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 11580,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 11636,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 11936,
+        "name": "SearchHost.exe",
+        "exe": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 12000,
+        "name": "StartMenuExperienceHost.exe",
+        "exe": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 12060,
+        "name": "FileCoAuth.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Microsoft\\OneDrive\\25.115.0615.0002\\FileCoAuth.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 12324,
+        "name": "Widgets.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_525.15301.20.0_x64__cw5n1h2txyewy\\Dashboard\\Widgets.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 12432,
+        "name": "IGCC.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\appup.intelgraphicsexperience_1.100.5688.0_x64__8j3eq9eme6ctt\\IGCC.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 12552,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 12764,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 12816,
+        "name": "WidgetService.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.9.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 13136,
+        "name": "NVChecker.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI Center\\Monitor\\NVChecker.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 13244,
+        "name": "DCv2.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\9426MICRO-STARINTERNATION.MSICenter_2.0.55.0_x64__kzh8wxbdkxb8p\\DCv2\\DCv2.exe",
+        "windows": [
+            {
+                "title": "GDI+ Window (DCv2.exe)",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Hidden Window",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": ".NET-BroadcastEventWindow.4.0.0.0.31d4ff3.0",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "SystemResourceNotifyWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MediaContextNotificationWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSI Center",
+                "is_visible": false,
+                "is_minimized": true
+            },
+            {
+                "title": "CiceroUIWndFrame",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "CiceroUIWndFrame",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": true
+    },
+    {
+        "pid": 13348,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 13964,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 14020,
+        "name": "NVIDIA Overlay.exe",
+        "exe": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 14084,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 14216,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 14300,
+        "name": "ShellExperienceHost.exe",
+        "exe": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 14360,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 14368,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 14440,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 14740,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 14812,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 15092,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 15404,
+        "name": "TextInputHost.exe",
+        "exe": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+        "windows": [
+            {
+                "title": "Expérience d’entrée Windows",
+                "is_visible": true,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": true,
+        "is_minimized": false
+    },
+    {
+        "pid": 15652,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 15820,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 15864,
+        "name": "MSI_LAN_Manager_Tool.exe",
+        "exe": "C:\\Program Files (x86)\\MSI\\MSI Center\\LAN Manager\\MSI_LAN_Manager_Tool.exe",
+        "windows": [
+            {
+                "title": "MediaContextNotificationWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "SystemResourceNotifyWindow",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 16316,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [
+            {
+                "title": "Exploiting Neo4j for Advanced Data Analysis - DeepSeek - Opera",
+                "is_visible": true,
+                "is_minimized": false
+            },
+            {
+                "title": "SleepDetectorServiceWindowClass",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": true,
+        "is_minimized": false
+    },
+    {
+        "pid": 16332,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 16788,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 17008,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [
+            {
+                "title": "main.py - SkyShell - Visual Studio Code",
+                "is_visible": true,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": true,
+        "is_minimized": false
+    },
+    {
+        "pid": 17188,
+        "name": "OneDrive.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Microsoft\\OneDrive\\OneDrive.exe",
+        "windows": [
+            {
+                "title": "GDI+ Window (OneDrive.exe)",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "DDE Server Window",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "OneDrive - Personnel",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 17248,
+        "name": "NVIDIA Overlay.exe",
+        "exe": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+        "windows": [
+            {
+                "title": "{5AEA657D-F3F5-4BD8-BFE9-A4B537FA24C3}",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "CallBackWindowThread",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "NVIDIA GeForce Overlay",
+                "is_visible": true,
+                "is_minimized": false
+            },
+            {
+                "title": "NVIDIA GeForce Overlay DT",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": true,
+        "is_minimized": false
+    },
+    {
+        "pid": 17668,
+        "name": "pet.exe",
+        "exe": "C:\\Users\\bobim\\.vscode\\extensions\\ms-python.python-2025.10.0-win32-x64\\python-env-tools\\bin\\pet.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 17808,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 17928,
+        "name": "PhoneExperienceHost.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25061.44.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+        "windows": [
+            {
+                "title": ".NET-BroadcastEventWindow.21af1a5.0",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 18168,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 18320,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 18376,
+        "name": "msedgewebview2.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\138.0.3351.83\\msedgewebview2.exe",
+        "windows": [
+            {
+                "title": "Widgets",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 18624,
+        "name": "NVIDIA Overlay.exe",
+        "exe": "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\CEF\\NVIDIA Overlay.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 18628,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19164,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19396,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19412,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19444,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19668,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19688,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19796,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 19920,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20064,
+        "name": "msedge.exe",
+        "exe": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20280,
+        "name": "WhatsApp.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\5319275A.WhatsAppDesktop_2.2527.2.0_x64__cv1g1gvanyjgm\\WhatsApp.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20324,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20516,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 20812,
+        "name": "pwsh.exe",
+        "exe": "C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 21320,
+        "name": "opera.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Opera GX\\opera.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 22372,
+        "name": "Code.exe",
+        "exe": "C:\\Users\\bobim\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 22564,
+        "name": "Microsoft.Media.Player.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_11.2505.2.0_x64__8wekyb3d8bbwe\\Microsoft.Media.Player.exe",
+        "windows": [
+            {
+                "title": "Media Player",
+                "is_visible": true,
+                "is_minimized": false
+            },
+            {
+                "title": "MSCTFIME UI",
+                "is_visible": false,
+                "is_minimized": false
+            },
+            {
+                "title": "Default IME",
+                "is_visible": false,
+                "is_minimized": false
+            }
+        ],
+        "category": "background",
+        "is_visible": true,
+        "is_minimized": false
+    },
+    {
+        "pid": 24388,
+        "name": "python.exe",
+        "exe": "C:\\Users\\bobim\\SkyShell\\SkyShell\\Scripts\\python.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    },
+    {
+        "pid": 24552,
+        "name": "python3.11.exe",
+        "exe": "C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\python3.11.exe",
+        "windows": [],
+        "category": "background",
+        "is_visible": false,
+        "is_minimized": false
+    }
+]
