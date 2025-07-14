@@ -9,7 +9,7 @@ class Config:
     
     # Groq
     GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-    GROQ_MODELS = ["mixtral-8x7b-32768", "llama3-70b-8192"]
+    GROQ_MODELS = ["llama3-70b-8192"]
     GROQ_TEMPERATURE = 0.3
     GROQ_MAX_TOKENS = 100
     

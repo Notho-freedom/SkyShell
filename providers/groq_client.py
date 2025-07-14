@@ -48,7 +48,10 @@ class GroqClient:
             return self._sanitize_message(str(response.choices[0].message.content))
         except Exception as e:
             self.logger.warning(f"Erreur Groq completion (modèle {model}) : {e}")
-            Config.GROQ_MODELS.remove(model)
+            try:
+                Config.GROQ_MODELS.remove(model)
+            except ValueError:
+                pass
             return None
 
     def _sanitize_message(self, text: str) -> str:
