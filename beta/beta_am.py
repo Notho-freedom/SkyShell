@@ -11,7 +11,7 @@ from pydantic import BaseModel
 
 from providers.groq_client import GroqClient
 from providers.tts_client import TTSClient
-from config import Config
+from SkyNotify.config import Config
 
 
 class AlertPayload(BaseModel):

@@ -9,8 +9,8 @@ import requests
 from urllib3.util.retry import Retry
 from requests.adapters import HTTPAdapter
 from config import Config
-from SystemMonitor import SystemMonitor
-from AlertManager import AlertManager
+from system_monitor import SystemMonitor
+from alert_manager import AlertManager
 from win_notif_sniffer import scan_windows_toasts
 
 

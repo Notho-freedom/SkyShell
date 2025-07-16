@@ -1,8 +1,9 @@
 # providers/groq_client.py
 
 import groq
-from skynotify.config import Config
+from config import Config
 import re
+from config import Config
 
 class GroqClient:
     """

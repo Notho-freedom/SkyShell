@@ -8,10 +8,10 @@ import pygame
 import requests
 from urllib3.util.retry import Retry
 from requests.adapters import HTTPAdapter
-from config import Config
-from SystemMonitor import SystemMonitor
-from beta_am import AlertManager
-from win_notif_sniffer import scan_windows_toasts
+from SkyNotify.config import Config
+from SkyNotify.SystemMonitor import SystemMonitor
+from beta.beta_am import AlertManager
+from SkyNotify.win_notif_sniffer import scan_windows_toasts
 
 
 # ------------------------

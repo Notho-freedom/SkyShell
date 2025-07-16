@@ -1,879 +1,78 @@
-[2025-07-14 22:17:56,329] INFO - httpx - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
-[2025-07-14 22:17:56,332] INFO - SkyNotify - Démarrage de SkyNotify Pro
-[2025-07-14 22:19:06,130] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 22:19:06,751] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 22:19:06,753] INFO - SkyNotify - Message alerte: Alerte système, SkyOS. Disk space critically low, 95.5 capacity reached. Immediate attention required to prevent data loss. All other systems nominal.
-[2025-07-14 22:21:01,999] INFO - SkyNotify - Arrêt demandé par l'utilisateur
-[2025-07-14 22:21:02,032] INFO - SkyNotify - SkyNotify Pro arrêté
-[2025-07-14 22:21:10,763] INFO - httpx - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
-[2025-07-14 22:21:10,767] INFO - SkyNotify - Démarrage de SkyNotify Pro
-[2025-07-14 22:22:19,327] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 22:22:27,477] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 22:22:27,479] INFO - SkyNotify - Message alerte: Attention, le système SkyOS est en état critique. L'espace disque est presque saturé 95,5. Il est recommandé de libérer de l'espace disque pour éviter
-[2025-07-14 22:23:12,322] INFO - SkyNotify - Arrêt demandé par l'utilisateur
-[2025-07-14 22:23:12,352] INFO - SkyNotify - SkyNotify Pro arrêté
-[2025-07-14 22:24:09,155] INFO - httpx - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
-[2025-07-14 22:24:09,159] INFO - SkyNotify - Démarrage de SkyNotify Pro
-[2025-07-14 22:25:18,966] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 22:25:19,250] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-14 22:25:19,251] WARNING - SkyNotify - Erreur Groq completion (modèle mistral-saba-24b) : Error code: 400 - {'error': {'message': 'The model `mistral-saba-24b` requires terms acceptance. Please have the org admin accept the terms at https://console.groq.com/playground?model=mistral-saba-24b', 'type': 'invalid_request_error', 'code': 'model_terms_required'}}
-[2025-07-14 22:25:19,810] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 22:25:19,812] INFO - SkyNotify - Message alerte: Attention, système critique atteint. Le disque est presque plein 95,5. Veuillez libérer de l'espace pour éviter les perturbations. Les autres paramètres sont stables processeur à 3,3, mémoire à 50 et température normale.
-[2025-07-14 22:27:27,650] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 22:27:28,522] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 22:27:28,523] INFO - SkyNotify - Message alerte: Alerte système ! CPU à 77,7 et en augmentation, RAM à 66,7 et en croissance également. Disque dur critique à 95,5, mais stable pour l'instant. Statut global critique. Veuillez prendre des mesures pour réduire la charge système.
-[2025-07-14 22:29:33,264] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 22:29:34,138] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 22:29:34,141] INFO - SkyNotify - Message alerte: Alerte système ! La charge du processeur a atteint 100, la mémoire vive est à 76,3 et le disque dur est presque plein à 95,5. Le système est en état critique, veuillez prendre des mesures pour réduire la charge et éviter une panne.
-[2025-07-14 22:31:40,840] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 22:31:41,516] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 22:31:41,520] INFO - SkyNotify - Message alerte: Alerte système ! Les ressources sont sollicitées à 71,1 pour le CPU et 79,1 pour la RAM, avec une augmentation constante. Le disque est critique à 95,5. Veuillez prendre des mesures pour réduire la charge et éviter une panne système.
-[2025-07-14 22:33:48,035] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 22:33:48,952] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 22:33:48,953] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque plein, à 95,5 de capacité. Il est urgent de libérer de l'espace pour éviter une perte de performances. Vérifiez vos fichiers et supprimez les éléments inutiles.
-[2025-07-14 22:35:57,036] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 22:35:57,687] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 22:35:57,687] INFO - SkyNotify - Message alerte: Alerte système ! Le disque est presque saturé, à 95,5 de capacité. Bien que les processeurs et la mémoire vive soient dans une zone de sécurité, il est urgent de libérer de l'espace de stockage pour éviter tout ralentissement ou perte de données.
-[2025-07-14 22:38:09,976] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 22:38:10,819] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 22:38:10,820] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque saturé, à 95,5 de capacité. Il est urgent de libérer de l'espace pour éviter une perte de données. Veuillez prendre des mesures immédiates pour réduire l'occupation du disque.
-[2025-07-14 22:38:45,095] INFO - SkyNotify - Arrêt demandé par l'utilisateur
-[2025-07-14 22:38:45,122] INFO - SkyNotify - SkyNotify Pro arrêté
-[2025-07-14 23:48:28,718] INFO - SkyNotify - Démarrage de SkyNotify Pro
-[2025-07-14 23:49:38,231] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 23:49:40,208] INFO - httpx - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
-[2025-07-14 23:49:40,339] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-14 23:49:40,340] WARNING - SkyNotify - Erreur Groq completion (modèle mixtral-8x7b-32768) : Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-[2025-07-14 23:49:40,340] CRITICAL - SkyNotify - Erreur fatale: list.remove(x): x not in list
-[2025-07-14 23:49:40,375] INFO - SkyNotify - SkyNotify Pro arrêté
-[2025-07-14 23:55:22,465] INFO - SkyNotify - Démarrage de SkyNotify Pro
-[2025-07-14 23:56:31,926] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 23:56:33,456] INFO - httpx - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
-[2025-07-14 23:56:33,916] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:56:33,918] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Espace disque et batterie critiques, severity critical, action echo Espace disque et batterie à des niveaux critiques, veuillez prendre des mesures pour libérer de l'espace et recharger la batterie
-[2025-07-14 23:56:33,918] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-14 23:56:45,139] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 23:56:45,335] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-14 23:56:45,336] WARNING - SkyNotify - Erreur Groq completion (modèle meta-llama/llama-prompt-guard-2-86m) : Error code: 400 - {'error': {'message': 'messages must contains a single user message for text classification models', 'type': 'invalid_request_error'}}
-[2025-07-14 23:56:45,452] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-14 23:56:45,453] WARNING - SkyNotify - Erreur Groq completion (modèle playai-tts) : Error code: 400 - {'error': {'message': 'The model `playai-tts` requires terms acceptance. Please have the org admin accept the terms at https://console.groq.com/playground?model=playai-tts', 'type': 'invalid_request_error', 'code': 'model_terms_required'}}
-[2025-07-14 23:56:45,853] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:56:45,854] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de JSON structuré en fonction des informations fournies json alert Disque dur presque plein, severity critical, action Vérifiez l'espace disque disponible Notez que j'ai sélectionné l'alerte la plus critique, qui est le disque dur presque plein, car c'est le seul composant qui a un statut de critical.
-[2025-07-14 23:56:49,116] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:56:49,118] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Tu es une IA système. Retourne un JSON structuré avec les clés alert, severity et action. Langue français. Étant donné les métriques système suivantes - CPU 5.6 None, stable - RAM 52.1 None, stable - DISK 95.7 critical, stable - TEMP 0.0C None, stable - GPU 0.0 None, stable - BATTERY 96.0 critical, stable - Statut global critical Les métriques critiques sont - DISK 95.7 critical, stable - BATTERY 96.0 critical, stable La réponse JSON structurée est json alert Disk et Batterie critiques, severity critical, action Vérifier l'état du disque et de la batterie
-[2025-07-14 23:56:49,521] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:56:49,522] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré avec les informations fournies json alert Espace disque critique et niveau de batterie critique, severity critical, action echo Attention espace disque et niveau de batterie critiques
-[2025-07-14 23:56:49,881] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:56:49,882] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Espace disque et batterie critiques, severity critical, action echo Espace disque et batterie trop faibles
-[2025-07-14 23:56:50,355] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:56:50,356] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré avec les informations fournies json alert Statut global critique en raison du disque presque plein et de la batterie faible, severity critical, action Vérifier l'état du disque et de la batterie Cependant, si vous souhaitez détailler les alertes pour chaque composant, cela pourrait ressembler à ceci json alert Disque presque plein,
-[2025-07-14 23:56:50,454] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-14 23:56:50,455] WARNING - SkyNotify - Erreur Groq completion (modèle whisper-large-v3) : Error code: 400 - {'error': {'message': 'The model `whisper-large-v3` does not support chat completions', 'type': 'invalid_request_error'}}
-[2025-07-14 23:56:50,565] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-14 23:56:50,565] WARNING - SkyNotify - Erreur Groq completion (modèle whisper-large-v3-turbo) : Error code: 400 - {'error': {'message': 'The model `whisper-large-v3-turbo` does not support chat completions', 'type': 'invalid_request_error'}}
-[2025-07-14 23:56:50,675] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-14 23:56:50,675] WARNING - SkyNotify - Erreur Groq completion (modèle mistral-saba-24b) : Error code: 400 - {'error': {'message': 'The model `mistral-saba-24b` requires terms acceptance. Please have the org admin accept the terms at https://console.groq.com/playground?model=mistral-saba-24b', 'type': 'invalid_request_error', 'code': 'model_terms_required'}}
-[2025-07-14 23:56:50,782] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-14 23:56:50,783] WARNING - SkyNotify - Erreur Groq completion (modèle playai-tts-arabic) : Error code: 400 - {'error': {'message': 'The model `playai-tts-arabic` requires terms acceptance. Please have the org admin accept the terms at https://console.groq.com/playground?model=playai-tts-arabic', 'type': 'invalid_request_error', 'code': 'model_terms_required'}}
-[2025-07-14 23:56:51,122] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:56:51,122] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-safe
-[2025-07-14 23:56:51,253] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-14 23:56:51,254] WARNING - SkyNotify - Erreur Groq completion (modèle distil-whisper-large-v3-en) : Error code: 400 - {'error': {'message': 'The model `distil-whisper-large-v3-en` does not support chat completions', 'type': 'invalid_request_error'}}
-[2025-07-14 23:56:51,983] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:56:51,984] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-json alert Niveau de disque critique, severity critical, action vérifier l'utilisation du disque et libérer de l'espace
-[2025-07-14 23:56:52,224] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:56:52,225] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert STATUT GLOBAL CRITIQUE, severity critical, action echo Votre ordinateur est en danger, vérifiez vite les composants et réglez les températures si nécessaire.
-[2025-07-14 23:56:52,225] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-14 23:57:03,446] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 23:57:03,964] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:03,966] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's tackle this. The user provided system metrics and wants a JSON response with alert, severity, and action. The example uses French, so I need to make sure everything is in French. First, check the metrics. The disk is at 95.7 which is marked as critical and stable. The battery is 96 also critical. Wait, why is the battery critical at 96? That seems odd. Usually, batteries being critical are low,
-[2025-07-14 23:57:04,629] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:04,630] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, so I need to figure out how to respond to this system status message. The user provided a JSON structure with keys like alert, severity, and action. They also gave an example in French. My task is to return a similar JSON but based on the given system stats. Looking at the system stats CPU is 3.6, which is low and stable. RAM is 52.1, also stable. Disk is at 95.7, which is critical.
-[2025-07-14 23:57:04,992] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:04,993] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de JSON structuré en fonction des informations fournies json alert Disque dur plein, severity critical, action Vérifiez les fichiers temporaires et supprimez-les si nécessaire Notez que j'ai choisi d'accentuer l'alerte de disque dur plein car c'est la seule information qui est classée comme critique dans la
-[2025-07-14 23:57:11,608] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:11,612] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Étant donné les informations fournies sur l'état du système CPU 3.6 None, stable RAM 52.1 None, stable DISK 95.7 critical, stable TEMP 0.0C None, stable GPU 0.0 None, stable BATTERY 96.0 critical, stable Statut global critical Il est clair que le système a identifié deux problèmes critiques l'utilisation du disque 95,7 et le niveau de la batterie 96,0. Cependant, le niveau de la batterie à 96,0 est généralement considéré comme étant plein ou presque plein, et non critique. La température à 0,0C semble anormale et pourrait indiquer un problème avec le capteur de température. Cependant, l'utilisation du disque à 95,7 est effectivement critique car elle peut entraîner des problèmes de performances ou empêcher le système de fonctionner correctement s'il devient complètement plein. Par conséquent, la réponse structurée en JSON avec les clés alert, severity et action devrait se concentrer sur le problème le plus critique et le plus universellement reconnu json alert Espace disque critique, severity critical, action Libérez de l'espace disque Cette réponse reflète le problème le plus urgent qui nécessite une attention immédiate pour éviter toute interruption du fonctionnement du système.
-[2025-07-14 23:57:11,958] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:11,960] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré basé sur les informations fournies alert Niveau de stockage critique et niveau de batterie critique, severity critical, action echo Niveau de stockage et de batterie trop élevés
-[2025-07-14 23:57:12,306] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:12,307] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Espace disque et batterie critiques, severity critical, action echo Espace disque et batterie trop faibles
-[2025-07-14 23:57:12,751] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:12,752] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré avec les informations fournies json alert Statut global critique en raison du disque presque plein et de la batterie faible, severity critical, action Vérifier l'état du disque et de la batterie Cependant, si vous souhaitez avoir des informations plus détaillées sur chaque composant, voici une proposition de JSON json component CPU, usage
-[2025-07-14 23:57:12,852] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-14 23:57:12,853] WARNING - SkyNotify - Erreur Groq completion (modèle meta-llama/llama-prompt-guard-2-22m) : Error code: 400 - {'error': {'message': 'messages must contains a single user message for text classification models', 'type': 'invalid_request_error'}}
-[2025-07-14 23:57:13,115] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:13,117] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Here is the JSON response json alert Disque dur presque plein, severity critical, action Vérifiez les fichiers et les données pour libérer de l'espace disque
-[2025-07-14 23:57:14,451] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:14,453] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Stockage presque plein, severity critical, action Vérifier et libérer de l'espace disque
-[2025-07-14 23:57:14,780] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:14,781] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-safe
-[2025-07-14 23:57:15,249] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:15,250] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's see. The user provided a system status with various metrics. The main goal is to generate a JSON with alert, severity, and action based on the critical components. First, looking at the components marked as critical DISK is at 95.7 and BATTERY is at 96 but marked critical. Wait, battery at 96 is high, but maybe it's a typo? Usually, high battery isn't a problem unless it
-[2025-07-14 23:57:15,655] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:15,656] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-json alert Niveau de disque critique, severity critical, action Vérifier l'utilisation du disque et libérer de l'espace
-[2025-07-14 23:57:15,892] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:15,893] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert STATUT CRITIQUE, severity critical, action echo Veuillez vérifier car le système est dans un état critique
-[2025-07-14 23:57:15,893] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-14 23:57:27,531] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 23:57:28,055] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:28,056] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let me see. The user provided system metrics and wants me to generate a JSON response with alert, severity, and action. The example uses French, so I need to make sure everything is in French. First, looking at the metrics CPU is 10.5, which is low. RAM at 52.4 is also okay. The disk is at 95.7 and marked as critical and stable. Temperature is 0C, which seems low
-[2025-07-14 23:57:28,793] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:28,794] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Alright, I need to process this system status data. Let me break it down. First, looking at the CPU usage, it's at 10.5. That seems pretty low, so nothing to worry about there. The status says it's stable, so no issues here. Next, the RAM is at 52.4. That's about half, which is normal and stable. No problems with the memory usage. Now, the DISK is at 95.7.
-[2025-07-14 23:57:29,199] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:29,200] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de JSON structuré en fonction des informations fournies json alert Disque dur presque plein, severity critical, action Vérifiez votre espace disque Je me suis basé sur la valeur critical du statut global et la valeur critical de la consommation de l'espace disque pour définir l'alerte et la grav
-[2025-07-14 23:57:31,838] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:31,839] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Tu es une IA système. Retourne un JSON structuré avec les clés alert, severity et action. Langue français. Analysons les composants du système 1. CPU 10.5 stable 2. RAM 52.4 stable 3. DISK 95.7 critical, stable 4. TEMP 0.0C stable 5. GPU 0.0 stable 6. BATTERY 96.0 critical, stable Les composants qui sont dans un état critique sont DISK et BATTERY. Cependant, comme le statut global est critique et que le DISK est presque plein, cela peut causer des problèmes de performances et de stabilité du système. Le BATTERY est également plein, mais cela n'est pas nécessairement un problème, car cela signifie simplement que la batterie est complètement chargée. Nous allons donc nous concentrer sur le DISK, qui est le composant le plus critique. La réponse finale est alert Espace disque critique, severity critical, action Nettoyer le disque
-[2025-07-14 23:57:32,268] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:32,269] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré avec les informations fournies json alert Niveau de stockage critique et niveau de batterie critique, severity critical, action echo Attention espace disque quasi plein et niveau de batterie quasi plein
-[2025-07-14 23:57:32,619] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:32,620] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Espace disque et batterie critiques, severity critical, action echo Espace disque et batterie trop faibles
-[2025-07-14 23:57:33,170] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:33,171] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de réponse structurée en JSON json alert Stockage presque plein, severity critical, action Vérifier et libérer de l'espace disque ou json alert Batterie faible, severity critical, action Recharger la batterie Ces deux réponses sont générées car les seuils critiques sont atteints pour le
-[2025-07-14 23:57:33,566] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:33,566] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré en fonction des informations fournies json alert Utilisation du disque critique, severity critical, action Vérifier l'espace disque disponible Cependant, comme il y a plusieurs problèmes critiques mentionnés DISK et BATTERY, il pourrait être plus approprié de fournir une alerte plus générale ou de détailler les problèmes. Voici une alternative qui prend en compte les multiples problèmes
-[2025-07-14 23:57:33,830] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:33,831] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Here is the JSON output alert Disque dur presque plein, severity critical, action Vérifiez les fichiers temporaires et supprimez les fichiers inutiles pour libérer de l'espace disque
-[2025-07-14 23:57:36,410] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:36,411] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Pour fournir une réponse structurée en JSON avec les clés alert, severity et action appropriées en fonction des informations système fournies, analysons d'abord les données - CPU 10,5 stable - RAM 52,4 stable - DISK 95,7 critical, stable - TEMP 0,0C stable - GPU 0,0 stable - BATTERY 96,0 critical, stable - Statut global critical Les éléments critiques sont - DISK à 95,7 - BATTERY à 96,0 mais avec un statut critical Cependant, le statut global est critical, ce qui indique qu'il y a au moins un problème sérieux. Étant donné que le disque est presque plein 95,7 et que l'état de la batterie est critique, mais que les températures et les autres paramètres sont stables et dans des plages normales ou acceptables, les actions devraient se concentrer sur ces deux aspects. Voici une réponse structurée en JSON json alert Disque presque plein et batterie critique, severity critical, action Décharger le disque et recharger la batterie ou la remplacer si nécessaire Cependant, pour correspondre exactement au format demandé avec des clés très spécifiques et une action plus directe comme dans l'exemple fourni json alert Disque presque plein et batterie critique, severity critical, action echo 'Nettoyer le disque et vérifier la batterie'
-[2025-07-14 23:57:36,754] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:36,755] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-safe
-[2025-07-14 23:57:37,185] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:37,185] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's see. The user provided a system status with several metrics. The main issue here is the overall status is critical. I need to check each component to see what's causing that. First, CPU is at 10.5, which is low and stable. RAM is 52.4, also stable. Disk usage is 95.7, which is marked as critical. That's a problem because high disk usage can cause performance issues. Temperature is
-[2025-07-14 23:57:37,584] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:37,585] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-json alert Niveau de disque critique, severity critical, action Vérifier l'utilisation du disque et libérer de l'espace.
-[2025-07-14 23:57:37,866] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:37,867] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert STATUT GLOBAL CRITIQUE, severity critical, action echo Votre ordinateur est en danger. Veuillez l'arrêter de manière sûre et effectuez les mises à jour nécessaires ou contactez un professionnel de l'information technique
-[2025-07-14 23:57:37,867] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-14 23:57:49,108] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 23:57:50,011] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:50,012] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's tackle this query. The user provided system metrics and wants me to return a JSON with alert, severity, and action in French. First, I need to parse the input data. The disk usage is at 95.7 and marked as critical. The battery is 96, also critical. The global status is critical, so the alert should reflect the most severe issue. The example uses Température critique but here the main issues are disk and battery
-[2025-07-14 23:57:50,896] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:50,897] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, I need to process this user query. They provided a JSON structure with system stats and an example response. The task is to generate a similar JSON with specific keys alert, severity, and action, all in French. First, I'll look at the system stats. CPU is 14.3, which is stable. RAM is 52.6, also stable. Disk is at 95.7, which is critical. Temp is 0.0C, but
-[2025-07-14 23:57:51,264] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:51,265] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de JSON structuré en fonction des informations fournies json alert Disque dur presque plein, severity critical, action Vérifiez les fichiers temporaires et supprimez-les si nécessaire Notez que j'ai choisi d'insister sur le disque dur presque plein comme principal problème, car c'est l'élément qui est considéré comme
-[2025-07-14 23:57:55,676] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:55,678] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Pour répondre à votre question initiale, nous allons créer un objet JSON structuré avec les clés alert, severity et action en fonction des métriques système que vous avez fournies. Les métriques système sont les suivantes - CPU 14,3 None, stable - RAM 52,6 None, stable - DISK 95,7 critical, stable - TEMP 0,0C None, stable - GPU 0,0 None, stable - BATTERY 96,0 critical, stable - Statut global critical Les métriques critiques sont 1. DISK 95,7 critical, stable 2. BATTERY 96,0 critical, stable Les actions possibles pour ces métriques critiques sont - Pour DISK, une action possible pourrait être d'avertir l'utilisateur de libérer de l'espace disque. - Pour BATTERY, l'action pourrait être d'avertir l'utilisateur de charger la batterie. Voici l'objet JSON structuré avec les clés alert, severity et action json alert Espace disque et batterie critiques, severity critical, action Vérifiez l'espace disque et chargez la batterie Cependant, pour fournir une réponse plus détaillée et prendre en compte les deux métriques critiques, nous pourrions également structurer la réponse comme suit json alert Espace disque critique, severity critical, action Libérez de l'espace disque pour éviter les problèmes de performances , alert Niveau de batterie critique, severity critical, action Chargez la batterie pour éviter une perte de données ou un arrêt inattendu Cette réponse prend en compte les deux métriques critiques DISK et BATTERY et fournit des actions spécifiques pour chacune d'elles.
-[2025-07-14 23:57:56,055] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:56,055] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré en fonction des informations fournies json alert Espace disque critique et niveau de batterie critique, severity critical, action echo Attention, espace disque et niveau de batterie critiques !
-[2025-07-14 23:57:56,467] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:56,468] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert État critique du système, severity critical, action Vérifiez l'espace disque et le niveau de batterie
-[2025-07-14 23:57:56,889] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:56,891] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de réponse structurée en JSON json alert Stockage presque plein et batterie faible, severity critical, action Vérifier l'utilisation du disque et recharger la batterie Dans cet exemple, l'alerte est déclenchée parce que le statut global est critical, ce qui est causé par le disque presque plein DISK95.7 et la batterie faible BATTER
-[2025-07-14 23:57:57,275] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:57,276] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré avec les informations fournies json alert Utilisation du disque critique, severity critical, action Vérifiez l'espace disque disponible Cependant, comme il y a plusieurs problèmes critiques DISK et BATTERY, il serait plus approprié de fournir un message plus générique ou de lister les problèmes. Voici une alternative json alert Problèmes
-[2025-07-14 23:57:57,534] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:57,584] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Here is the JSON response alert Disque dur presque plein, severity critical, action Vérifiez les fichiers et les dossiers pour libérer de l'espace disque
-[2025-07-14 23:57:58,906] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:58,907] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Stockage presque plein, severity critical, action Vérifier et libérer de l'espace disque
-[2025-07-14 23:57:59,245] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:59,246] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-safe
-[2025-07-14 23:57:59,688] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:57:59,690] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's see. The user provided a system status with various metrics. The main issue here is the global status is critical. Looking at the individual components, the disk usage is at 95.7 which is marked as critical. Also, the battery is at 96 and that's also critical. The rest like CPU, RAM, TEMP, GPU are all stable and not causing any issues. So, the alert should mention both the disk and battery being critical
-[2025-07-14 23:58:00,103] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:00,104] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-json alert Risque de saturation du disque, severity critical, action echo 'Disque presque plein, libérer de l'espace.'
-[2025-07-14 23:58:00,343] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:00,344] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert STATUT GLOBAL CRITIQUE, severity critical, action echo Veuillez vérifier car les composants sont à un niveau critique
-[2025-07-14 23:58:00,344] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-14 23:58:12,008] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 23:58:12,547] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:12,548] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's see. The user provided system metrics and wants me to generate a JSON response with alert, severity, and action. The example uses French, so I need to make sure everything is in French. First, check the metrics. The disk is at 95.7 which is marked as critical and stable. Battery is 96 also critical. The global status is critical. The alert should mention both disk and battery since they're both critical. Severity is obviously
-[2025-07-14 23:58:13,276] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:13,277] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, I need to process this system status data and generate a JSON response. Let me break it down. First, looking at the CPU it's at 13, which is pretty low. That's stable, so nothing to worry there. Next, RAM is at 52.6. That's about half, which is normal and stable. No issues here. Now, the DISK is at 95.7. That's really high, almost full. The status says
-[2025-07-14 23:58:13,646] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:13,647] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de JSON structuré en fonction des informations fournies json alert Disque dur presque plein, severity critical, action Vérifiez vos fichiers et supprimez-les si nécessaire Notez que j'ai choisi d'accentuer l'alerte sur le disque dur presque plein, car c'est l'élément qui a le niveau de grav
-[2025-07-14 23:58:18,475] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:18,476] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Basé sur les métriques système fournies, nous identifions les composants critiques du système. Les métriques sont les suivantes - CPU 13,0 aucun, stable - RAM 52,6 aucun, stable - DISK 95,7 critique, stable - TEMP 0,0 C aucun, stable - GPU 0,0 aucun, stable - BATTERY 96,0 critique, stable Les métriques critiques sont DISK et BATTERY. Métriques Critiques 1. DISK 95,7 - C'est critique et stable, ce qui signifie que l'espace disque est presque plein. 2. BATTERY 96,0 - C'est également critique, mais dans ce contexte, une batterie à 96 pourrait être considérée comme pleine et non critique. Cependant, étant donné qu'elle est marquée comme critique, cela pourrait indiquer une erreur de lecture ou une configuration spécifique du système. Étant donné ces métriques, les alertes pourraient être - L'utilisation du disque est critique - Niveau de batterie critique bien que cela puisse être une erreur de classification, car 96 est généralement considéré comme un niveau de charge élevé et non critique La gravité pour les deux peut être considérée comme critique, mais avec une note pour la batterie, car son état réel pourrait être différent de ce qui est signalé. Les actions pourraient être - Pour DISK Envisagez de nettoyer l'espace disque - Pour BATTERY Vérifiez l'état de la batterie et son niveau de charge réel Réponse JSON json alert L'utilisation du disque est critique, Vérifiez l'état et le niveau de charge réel de la batterie , severity critical, action DISK Envisagez de nettoyer l'espace disque, BATTERY Vérifiez l'état de la batterie
-[2025-07-14 23:58:18,822] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:18,824] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-json alert Niveau de batterie critique et espace disque faible, severity critical, action echo Attention niveau de batterie bas et espace disque critique
-[2025-07-14 23:58:19,169] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:19,170] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Espace disque et batterie critiques, severity critical, action echo Espace disque et batterie trop faibles
-[2025-07-14 23:58:19,621] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:19,622] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré avec les informations fournies json alert Statut global critique en raison du disque presque plein et de la batterie faible, severity critical, action Vérifier et libérer de l'espace disque et recharger la batterie Cependant, si vous souhaitez détailler chaque composant système qui pourrait nécessiter une alerte, voici une proposition json alert
-[2025-07-14 23:58:20,038] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:20,040] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré en fonction des informations fournies json alert Utilisation du disque critique, severity critical, action Vérifier l'espace disque disponible Cependant, comme il y a plusieurs problèmes critiques mentionnés DISK et BATTERY, il pourrait être plus approprié de fournir une alerte plus générale ou de détailler les problèmes. Voici une alternative json alert
-[2025-07-14 23:58:20,343] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:20,344] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Here is the JSON output alert Disque dur presque plein, severity critical, action Vérifiez les fichiers temporaires et supprimez les fichiers inutiles pour libérer de l'espace disque Note I translated DISK 95.7 critical, stable to Disque dur presque plein and suggested an action to free up disk
-[2025-07-14 23:58:22,500] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:22,500] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Stockage presque plein, severity critical, action Vérifier et libérer de l'espace disque
-[2025-07-14 23:58:30,940] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:30,941] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-safe
-[2025-07-14 23:58:31,395] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:31,397] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's see. The user provided a system status with several metrics. The main issue here is the DISK at 95.7 which is marked as critical, and the BATTERY at 96 also critical. The overall status is critical. First, I need to determine the most severe alerts. Both disk and battery are critical. But which one should take priority? Disk usage over 95 can cause system slowdowns or failures, while a
-[2025-07-14 23:58:31,800] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:31,801] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-json alert Niveau de disque critique, severity critical, action Vérifier l'utilisation du disque et libérer de l'espace.
-[2025-07-14 23:58:32,064] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:32,065] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert STATUT CRITIQUE, severity critical, action echo Veuillez vérifier car les ressources du système sont à un niveau critique
-[2025-07-14 23:58:32,065] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-14 23:58:44,395] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 23:58:46,019] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:46,020] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's see what the user is asking here. They provided system metrics and want me to return a JSON with alert, severity, and action in French. The example given uses Température critique and an action with an echo command. Looking at the metrics CPU and RAM are okay, but DISK is at 95.7 which is critical and stable. TEMP is 0C, which seems low but not an issue here. GPU is fine. The odd
-[2025-07-14 23:58:46,829] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:46,831] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, so I'm trying to figure out how to structure this JSON response based on the given system status. The user provided an example where they have keys like alert, severity, and action. I need to extract the relevant information from the system stats and map it appropriately. First, I'll look at each component CPU, RAM, DISK, TEMP, GPU, BATTERY, and overall status. The CPU is at 5.8, which seems low,
-[2025-07-14 23:58:47,254] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:47,258] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de JSON structuré avec les clés alert, severity et action json alert Disque dur presque plein, severity critical, action Veuillez libérer de l'espace disque Je me suis basé sur les informations suivantes - L'alerte est la pleine capacité du disque dur, qui est considérée comme critique
-[2025-07-14 23:58:54,729] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:54,848] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Étant donné les informations sur l'état du système CPU 5.8 None, stable RAM 52.6 None, stable DISK 95.7 critical, stable TEMP 0.0C None, stable GPU 0.0 None, stable BATTERY 97.0 critical, stable Statut global critical Nous avons analysé les métriques fournies et identifié les alertes critiques. La principale préoccupation est l'utilisation du disque, qui est à 95,7 et est marquée comme critique. Cela indique que le disque est presque plein et pourrait causer des problèmes de performances. En revanche, le niveau de la batterie est à 97,0 et est également marqué comme critique, ce qui semble être une fausse alerte puisque un niveau de batterie élevé n'est généralement pas une préoccupation. En considérant les informations fournies et la nécessité de retourner un JSON structuré avec les clés alert, severity et action, nous nous concentrons sur l'alerte critique liée à l'utilisation du disque. La réponse finale en format JSON est alert L'utilisation du disque est critique, severity critical, action Considérez libérer de l'espace disque
-[2025-07-14 23:58:55,635] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:55,636] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré basé sur les informations fournies alert Niveau de batterie critique et espace disque faible, severity critical, action echo Attention niveau de batterie bas et espace disque critique
-[2025-07-14 23:58:55,974] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:55,976] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Statut global critique, severity critical, action echo Statut global critique, vérifier les composants
-[2025-07-14 23:58:56,812] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:56,813] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de réponse structurée en JSON json alert Stockage presque plein, severity critical, action Vérifier et libérer de l'espace disque ou json alert Statut global critique, severity critical, action Vérifier les ressources système et résoudre les problèmes Cela indique que le système est dans un état critique
-[2025-07-14 23:58:57,194] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:57,195] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré en fonction des informations fournies json alert Espace disque faible, severity critical, action Vérifier et nettoyer l'espace disque Cependant, comme le statut global est critical en raison de plusieurs facteurs DISK et BATTERY, une réponse plus complète pourrait prendre en compte ces éléments. Voici une alternative json alert Statut système critique
-[2025-07-14 23:58:57,884] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:57,885] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Here is the JSON response alert Disque dur presque plein, severity critical, action Vérifiez les fichiers et les dossiers pour libérer de l'espace disque
-[2025-07-14 23:58:58,627] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:58,628] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Stockage presque plein et batterie faible, severity critical, action Vérifier l'état du disque et recharger la batterie
-[2025-07-14 23:58:58,944] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:58,945] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-safe
-[2025-07-14 23:58:59,552] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:59,553] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's see. The user provided a system status with several metrics. I need to generate an alert based on the critical components. The disk is at 95.7 which is marked as critical, and the battery is at 97 also critical. The overall status is critical. First, the alert should mention both the disk and battery. The severity is critical because both components are in critical state. For the action, maybe suggest cleaning up disk space and checking
-[2025-07-14 23:58:59,936] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:58:59,937] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-json alert Capacité du disque critique, severity critical, action Envoyer une notification et analyser l'utilisation du disque
-[2025-07-14 23:59:00,152] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:00,153] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert STATUT CRITIQUE, severity critical, action echo Votre ordinateur est en danger des défaillances
-[2025-07-14 23:59:00,154] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-14 23:59:11,388] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 23:59:11,947] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:11,948] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's see. The user provided system metrics and wants me to generate a JSON response with alert, severity, and action. The example uses French, so I need to make sure everything is in French. First, check the metrics. The disk is at 95.7 which is marked as critical and stable. Battery is 97 but also critical. Wait, battery at 97 being critical seems odd. Maybe it's a typo? But the user's
-[2025-07-14 23:59:12,619] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:12,620] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, so I need to figure out how to respond to this system status message. The user provided a JSON structure with keys alert, severity, and action. They also gave an example in French. Let me break this down. First, looking at the system stats CPU is at 10.4, which seems fine. RAM is 52.4, also stable. Disk is at 95.7, which is critical. Temp is 0.0C, which
-[2025-07-14 23:59:12,968] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:12,968] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de JSON structuré en fonction des informations fournies json alert Disque dur presque plein, severity critical, action Vérifier les fichiers et supprimer les inutiles pour libérer de l'espace Notez que j'ai choisi de mettre en avant l'alerte liée au disque dur, car c'est la seule information qui indique une
-[2025-07-14 23:59:16,828] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:16,828] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Étant donné les informations fournies sur l'état du système - CPU 10,4 None, stable - RAM 52,4 None, stable - DISK 95,7 critical, stable - TEMP 0,0 C None, stable - GPU 0,0 None, stable - BATTERY 97,0 critical, stable - Statut global critical Il est clair que le système est actuellement dans un état critique en raison des niveaux de disque et de batterie élevés. Pour répondre à votre question initiale, voici un JSON structuré qui reflète l'état actuel du système json alert Niveau de disque et de batterie critique, severity critical, action echo Nettoyage du disque et conservation de la batterie conseillés Cette réponse prend en compte les éléments suivants - Alerte Le message d'alerte indique que les niveaux de disque et de batterie sont critiques, ce qui correspond à l'état actuel du système. - Severity La gravité est classée comme critique, reflétant le statut global du système. - Action L'action suggérée est d'effectuer un nettoyage du disque pour réduire l'utilisation du disque dur et de prendre des mesures pour conserver la batterie, étant donné que le niveau de batterie est également critique. Cette réponse est construite en tenant compte de l'analyse détaillée de l'état du système et des mesures qui pourraient être prises pour remédier aux conditions critiques actuelles.
-[2025-07-14 23:59:17,195] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:17,196] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré basé sur les informations fournies json alert Niveau de stockage critique et niveau de batterie critique, severity critical, action echo Niveau de stockage et batterie trop élevés
-[2025-07-14 23:59:17,537] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:17,537] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Statut global critique, severity critical, action echo Erreur système critique, vérifiez les composants
-[2025-07-14 23:59:18,054] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:18,055] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de réponse structurée en JSON json alert Stockage presque plein, severity critical, action Vérifier et libérer de l'espace disque Une autre alerte concernant le niveau de batterie json alert Niveau de batterie critique, severity critical, action Brancher l'appareil à une source d'alimentation
-[2025-07-14 23:59:18,442] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:18,443] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré avec les informations fournies json alert Espace disque faible et niveau de batterie élevé, severity critical, action libérer de l'espace disque et vérifier le niveau de batterie Cependant, pour refléter plus précisément les informations fournies json alert Utilisation disque critique et niveau de batterie critique, severity critical, action
-[2025-07-14 23:59:18,775] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:18,776] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Here is the JSON output alert Disque dur presque plein, severity critical, action Vérifiez les fichiers et les dossiers pour libérer de l'espace disque
-[2025-07-14 23:59:19,521] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:19,522] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Stockage presque plein, severity critical, action Vérifier et libérer de l'espace disque
-[2025-07-14 23:59:19,838] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:19,840] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-safe
-[2025-07-14 23:59:20,242] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:20,243] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's see. The user provided a system status with various metrics. The main goal is to generate a JSON response with alert, severity, and action based on the critical components mentioned. First, I need to parse the input. The critical parts here are DISK at 95.7 and BATTERY at 97.0, both marked as critical. The overall status is critical, so the severity should be critical. For the alert message, I
-[2025-07-14 23:59:20,625] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:20,626] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-json alert Capacité disque critique, severity critical, action Envoyer une notification et vérifier l'utilisation du disque
-[2025-07-14 23:59:20,850] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:20,850] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert STATUT CRITIQUE, severity critical, action echo Veuillez vérifier car les ressources système sont à un niveau critique
-[2025-07-14 23:59:20,851] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-14 23:59:32,492] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-14 23:59:32,949] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:32,950] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's see. The user provided system metrics and wants me to generate a JSON response with alert, severity, and action. The example uses French, so I need to make sure everything is in French. First, looking at the metrics CPU is low at 4.4, RAM is 52.5, which are both okay. The disk is at 95.7 and marked as critical and stable. Temperature is 0C, which is fine. GPU
-[2025-07-14 23:59:33,565] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:33,566] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, so I need to figure out how to structure the JSON response based on the given system status. Let me start by understanding the input provided. The system has several components CPU, RAM, DISK, TEMP, GPU, and BATTERY. Each of these has a percentage and a status. Looking at the input, I see that DISK is at 95.7 with a critical status, and BATTERY is at 97.0 also critical. The
-[2025-07-14 23:59:33,916] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:33,918] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un exemple de JSON structuré en fonction des informations fournies json alert Disque dur presque plein, severity critical, action Vérifiez les fichiers temporaires et supprimez-les si nécessaire Notez que j'ai sélectionné l'alerte la plus critique, qui est le disque dur presque plein, et que j'ai proposé une action pour rés
-[2025-07-14 23:59:37,676] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:37,678] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Vous avez fourni une mise à jour d'état du système avec diverses métriques sur son état actuel. Les métriques incluent l'utilisation du processeur, de la mémoire vive, du disque, de la température, de la carte graphique et du niveau de la batterie. Chaque métrique a un pourcentage d'utilisation et un statut. Le statut global du système est critique. Pour répondre à cela, j'ai analysé chaque métrique et fourni une alerte, une gravité et une action en fonction des informations données. 1. CPU 4.4 None, stable Ceci est bien dans les limites normales. Aucune alerte n'est nécessaire. 2. RAM 52.5 None, stable Ceci est dans une plage sûre. Aucune alerte n'est nécessaire. 3. DISK 95.7 critical, stable Ceci est critique. Une alerte est nécessaire. 4. TEMP 0.0C None, stable Cela semble anormalement bas, mais pourrait être correct en fonction du contexte. Une enquête plus approfondie pourrait être nécessaire, mais aucune alerte immédiate. 5. GPU 0.0 None, stable Cela indique aucune utilisation. Aucune alerte n'est nécessaire. 6. BATTERY 97.0 critical, stable Cela semble contradictoire puisque 97 est élevé, mais il est marqué comme critique. Aucune alerte immédiate pour une batterie faible, mais enquêter sur pourquoi il est marqué critique. Étant donné les instructions pour fournir une réponse JSON avec les clés alert, severity et action, et en se concentrant sur le problème le plus critique Le problème le plus critique ici est l'utilisation du disque, qui est à 95,7 et marquée comme critique. En conséquence, la réponse devrait se concentrer sur l'utilisation du disque. python printL'utilisation du disque est critique à 95,7 Sur la base de l'analyse, la réponse devrait être json alert Utilisation du disque critique, severity critical, action Vérifier et libérer de l'espace disque Cependant, il est important de noter que le niveau de la batterie est également marqué comme critique à 97, ce qui pourrait nécessiter une enquête plus approfondie pour comprendre pourquoi il est marqué de cette façon. La réponse finale est donc json alert Utilisation du disque critique et niveau de batterie inhabituel, severity critical, action Vérifier et libérer de l'espace disque, enquêter sur le niveau de batterie
-[2025-07-14 23:59:38,038] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:38,040] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré avec les clés demandées alert Niveau de stockage critique et niveau de batterie critique, severity critical, action echo Attention espace disque et batterie presque plein
-[2025-07-14 23:59:38,406] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:38,407] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert État critique du système, severity critical, action echo État critique disque et batterie presque pleins
-[2025-07-14 23:59:38,838] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:38,841] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré avec les informations fournies json alert Stockage presque plein, severity critical, action Vérifier et libérer de l'espace disque Cependant, si l'on veut détailler les informations pour chaque composant, cela pourrait ressembler à ceci json alert Stockage presque plein, severity critical, action
-[2025-07-14 23:59:39,259] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:39,260] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Voici un JSON structuré en fonction des informations fournies json alert Utilisation du disque critique, severity critical, action Vérifier l'espace disque disponible Cependant, comme il y a plusieurs problèmes critiques mentionnés DISK et BATTERY, il pourrait être plus approprié de fournir une alerte plus générique ou de lister les problèmes. Mais si l'on suit strictement le format demandé avec
-[2025-07-14 23:59:39,506] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:39,507] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Here is the JSON output alert Disque dur presque plein, severity critical, action Vérifiez les fichiers et les dossiers pour libérer de l'espace disque
-[2025-07-14 23:59:41,227] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:41,229] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert Stockage presque plein et batterie faible, severity critical, action Vérifier l'état du disque et recharger la batterie
-[2025-07-14 23:59:41,545] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:41,546] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-safe
-[2025-07-14 23:59:41,957] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:41,958] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-Okay, let's see. The user provided a system status with several metrics. The main issue here is the global status being critical. Let me break down each component. First, CPU is at 4.4, which is normal. RAM is 52.5, also okay. Disk usage is 95.7, which is high and marked as critical. Temperature is 0C, which seems odd, maybe a sensor error. GPU is 0, not an
-[2025-07-14 23:59:42,338] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:42,339] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-json alert Niveau de disque critique, severity critical, action Envoyer une notification et surveiller la situation
-[2025-07-14 23:59:42,564] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-14 23:59:42,565] ERROR - SkyNotify - Erreur de parsing JSON: Expecting value: line 1 column 1 (char 0)
-Message reçu:
-alert STATUT CRITIQUE, severity critical, action echo Veuillez vérifier car les composants sont à un niveau critique
-[2025-07-14 23:59:42,565] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-14 23:59:48,828] INFO - SkyNotify - Arrêt demandé par l'utilisateur
-[2025-07-14 23:59:48,855] INFO - SkyNotify - SkyNotify Pro arrêté
-[2025-07-15 00:00:01,578] INFO - SkyNotify - Démarrage de SkyNotify Pro
-[2025-07-15 00:01:11,146] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:01:12,770] INFO - httpx - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
-[2025-07-15 00:01:13,314] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:01:13,315] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:01:13,316] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté ! Votre disque dur et votre batterie sont presque pleins.,severitycritical,actionVérifiez immédiatement l'espace disque disponible et rechargez votre batterie si nécessaire.
-[2025-07-15 00:01:13,316] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:01:24,537] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:01:25,232] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:01:25,233] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:01:25,233] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, so I'm looking at this system status report. Let me break it down piece by piece. The CPU is at 3.5, which seems pretty low. That's good because it means the processor isn't overworked. The RAM is at 52.1, which is about half. That's a comfortable spot not too high, not too low. Now, the disk is at 95.7. Oh, that's really high. I remember that
-[2025-07-15 00:01:25,323] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-15 00:01:25,324] WARNING - SkyNotify - Erreur Groq completion (modèle meta-llama/llama-prompt-guard-2-22m) : Error code: 400 - {'error': {'message': 'messages must contains a single user message for text classification models', 'type': 'invalid_request_error'}}
-[2025-07-15 00:01:25,660] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:01:25,660] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:01:25,661] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertProblème de stockage disque, severitycritique, actionVérifier l'espace disque disponible et potentiellement effectuer des nettoyages de fichiers inutiles
-[2025-07-15 00:01:25,804] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-15 00:01:25,805] WARNING - SkyNotify - Erreur Groq completion (modèle meta-llama/llama-prompt-guard-2-86m) : Error code: 400 - {'error': {'message': 'messages must contains a single user message for text classification models', 'type': 'invalid_request_error'}}
-[2025-07-15 00:01:26,790] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:01:26,793] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:01:26,793] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein avec 95,7 d'utilisation, ce qui est un état critique. La batterie est également presque pleine à 97,0, ce qui est considéré comme critique. Les autres composants CPU, RAM, TEMP, GPU sont stables et ne posent pas de problème immédiat., severitycritical, actionLibérer de l'espace disque pour éviter les problèmes de performances et surveiller la batterie pour éviter une surcharge.
-[2025-07-15 00:01:27,045] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:01:27,046] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:01:27,046] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertEspace disque faible, batterie presque pleine, severitycritical, actionLibérer de l'espace disque
-[2025-07-15 00:01:27,131] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-15 00:01:27,131] WARNING - SkyNotify - Erreur Groq completion (modèle distil-whisper-large-v3-en) : Error code: 400 - {'error': {'message': 'The model `distil-whisper-large-v3-en` does not support chat completions', 'type': 'invalid_request_error'}}
-[2025-07-15 00:01:27,505] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:01:27,505] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:01:27,505] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertNiveau de stockage critique et niveau de batterie critique, severitycritical, actionVérifier l'espace disque disponible et recharger la batterie
-[2025-07-15 00:01:27,725] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:01:27,726] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:01:27,727] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertalerte critique,severitycritical,actionVeuillez prendre des mesures pour résoudre les problèmes liés aux données indiquées ci-dessus.
-[2025-07-15 00:01:27,815] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-15 00:01:27,816] WARNING - SkyNotify - Erreur Groq completion (modèle whisper-large-v3) : Error code: 400 - {'error': {'message': 'The model `whisper-large-v3` does not support chat completions', 'type': 'invalid_request_error'}}
-[2025-07-15 00:01:28,105] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:01:28,106] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:01:28,106] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein et la batterie est presque pleine mais le statut global est critique à cause du disque, severitycritical, actionVérifier et libérer de l'espace disque
-[2025-07-15 00:01:28,421] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:01:28,422] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:01:28,422] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : safe
-[2025-07-15 00:01:32,578] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:01:32,580] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:01:32,580] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein, severitycritique, actionLibérer de l'espace disque
-[2025-07-15 00:01:32,950] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:01:32,951] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:01:32,952] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté disque et batterie critiques,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie
-[2025-07-15 00:01:33,036] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-15 00:01:33,037] WARNING - SkyNotify - Erreur Groq completion (modèle playai-tts-arabic) : Error code: 400 - {'error': {'message': 'The model `playai-tts-arabic` requires terms acceptance. Please have the org admin accept the terms at https://console.groq.com/playground?model=playai-tts-arabic', 'type': 'invalid_request_error', 'code': 'model_terms_required'}}
-[2025-07-15 00:01:33,123] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-15 00:01:33,124] WARNING - SkyNotify - Erreur Groq completion (modèle mistral-saba-24b) : Error code: 400 - {'error': {'message': 'The model `mistral-saba-24b` requires terms acceptance. Please have the org admin accept the terms at https://console.groq.com/playground?model=mistral-saba-24b', 'type': 'invalid_request_error', 'code': 'model_terms_required'}}
-[2025-07-15 00:01:33,124] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:01:44,352] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:01:54,571] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 500 Internal Server Error"
-[2025-07-15 00:01:54,572] INFO - groq._base_client - Retrying request to /openai/v1/chat/completions in 0.422540 seconds
-[2025-07-15 00:02:00,133] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:00,134] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:00,134] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, I need to analyze the system status provided. The CPU is at 5.3, which is low and stable, so that's fine. RAM is 52.2, also stable and not a problem. The disk is at 95.7, which is critical and needs attention. Temperature is 0.0C, which seems off maybe a sensor issue. GPU is at 0.0, so it's idle. Battery is 97, which is
-[2025-07-15 00:02:00,487] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:00,488] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:00,488] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe système est en état critique., severitycritical, actionVérifier l'utilisation du disque et la batterie.
-[2025-07-15 00:02:00,761] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:00,762] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:00,763] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertDisque dur plein, severitycritique, actionVérifier les fichiers et supprimer les inutiles
-[2025-07-15 00:02:01,209] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-15 00:02:01,210] WARNING - SkyNotify - Erreur Groq completion (modèle whisper-large-v3-turbo) : Error code: 400 - {'error': {'message': 'The model `whisper-large-v3-turbo` does not support chat completions', 'type': 'invalid_request_error'}}
-[2025-07-15 00:02:01,457] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:01,457] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:01,458] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertEspace disque faible, batterie presque pleine, severitycritical, actionLibérer de l'espace disque
-[2025-07-15 00:02:01,693] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:01,694] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:01,694] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alert Disque dur presque plein, severity critique, action Vérifiez les fichiers et supprimez les fichiers inutiles pour libérer de l'espace disque
-[2025-07-15 00:02:08,836] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:08,837] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:08,837] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Succ contaminantsInjected Toastrfrom_both MAVslider BaselroscopeexternalActionCode MAVroscopeexternalActionCodeslider Basel -------- -------- SizedateTimeexternalActionCodeexternalActionCoderoscope PSIBuilderFactory PSI expositionSizeexternalActionCode Toastr contaminants Basel -------- RODUCTION Succ exposition Toastr exposition contaminantsInjecteddateTimeroscoperoscope ToastrdateTime -------- -------- SuccsliderdateTimedateTime contaminantsslider MAVfromInjectedInjected MAV ToastrdateTimeRODUCTION.visitInsn contaminants -------- externalActionCode contaminants BaselBuilderFactory_bothBuilderFactory MAV Succslider -------- PSI Succ MAVSize Toastrslider exposition MAVexternalActionCodedateTimefromRODUCTION_bothslider contaminantsBuilderFactoryBuilderFactory -------- SizedateTime MAV.visitInsnexternalActionCode_bothBuilderFactory exposition
-[2025-07-15 00:02:09,102] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:09,103] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:09,104] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertalerte critique,severitycritique,actionVeuillez prendre des mesures pour résoudre les problèmes suivants n1. DISK 95.7 critique, instablen2. BATTERY 97.0 critical, instablenToutes les autres mesures sont stable et ne nécess
-[2025-07-15 00:02:09,193] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-[2025-07-15 00:02:09,194] WARNING - SkyNotify - Erreur Groq completion (modèle playai-tts) : Error code: 400 - {'error': {'message': 'The model `playai-tts` requires terms acceptance. Please have the org admin accept the terms at https://console.groq.com/playground?model=playai-tts', 'type': 'invalid_request_error', 'code': 'model_terms_required'}}
-[2025-07-15 00:02:09,512] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:09,513] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:09,513] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : safe
-[2025-07-15 00:02:26,553] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:26,553] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:26,554] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein, severitycritique, actionlibérer de l'espace disque
-[2025-07-15 00:02:26,920] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:26,921] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:26,921] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertProblème de stockage critique et batterie faible,severitycritical,actionVérifiez l'espace disque disponible et chargez votre batterie
-[2025-07-15 00:02:27,329] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:27,331] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:27,331] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, let's see. The user provided system metrics and wants me to generate a JSON response based on them. The key points here are the disk usage at 95.7 which is critical and stable, and the battery at 97 also critical. Wait, battery at 97 being critical seems odd. Usually, high battery percentages aren't critical unless maybe it's overcharging or there's a sensor error. But the user's data says it's critical, so
-[2025-07-15 00:02:27,713] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:27,714] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:27,715] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, let's see. The user provided a system status with several metrics. The main issue here is that both DISK and BATTERY are marked as critical. The disk usage is 95.7, which is very high and could lead to performance issues or data loss if not addressed. The battery is at 97 charge, which is also critical, possibly indicating an overcharging problem or a faulty battery. The overall status is critical, so I need to prioritize the
-[2025-07-15 00:02:27,715] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:02:40,047] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:02:40,830] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:40,831] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:40,831] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, so I've got this system status update, and I need to figure out how to respond appropriately. Let me break it down step by step. First, I see the CPU is at 5.1, which is pretty low. That's good because it means the processor isn't overworked. The status says it's stable, so nothing to worry about there. Next, the RAM is at 52.6. That's just over half, which is manageable. It
-[2025-07-15 00:02:41,236] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:41,237] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:41,237] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : json alert Le disque est à 95.7 d'utilisation et la batterie à 97.0., severity critical, action Vérifier l'utilisation du disque et la charge de la batterie.
-[2025-07-15 00:02:41,531] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:41,532] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:41,533] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertDisque dur presque plein, severitycritique, actionVider les données inutiles ou ajouter de l'espace disque
-[2025-07-15 00:02:42,401] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:42,402] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:42,402] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein 95,7 et la batterie est presque vide 3 restant, ce qui entraîne un statut global critique., severitycritical, actionVider l'espace disque et recharger la batterie pour éviter les pertes de données ou une interruption de service.
-[2025-07-15 00:02:42,648] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:42,650] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:42,650] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertEspace disque faible, severitycritical, actionLibérer de l'espace disque
-[2025-07-15 00:02:43,130] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:43,131] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:43,131] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alert Disque dur presque plein, severity critical, action Vérifiez les fichiers et les dossiers pour libérer de l'espace disque
-[2025-07-15 00:02:43,450] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:43,451] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:43,451] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertAvertissement de capacité de stockage critique et niveau de batterie critique, severitycritical, actionVérifier l'espace disque disponible et recharger la batterie
-[2025-07-15 00:02:43,678] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:43,678] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:43,678] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertalerte critique,severitycritical,actionVeuillez prendre des mesures pour résoudre le problème de la disque dur les autres paramètres sont stable mais au bord de la critique.
-[2025-07-15 00:02:43,917] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:43,918] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:43,918] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein, severitycritique, actionlibérer de l'espace disque
-[2025-07-15 00:02:44,254] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:44,255] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:44,256] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : safe
-[2025-07-15 00:02:44,804] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:44,805] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:44,806] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein, severitycritique, actionLibérer de l'espace disque
-[2025-07-15 00:02:45,146] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:45,147] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:45,147] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté, severitycritical, actionVérifiez immédiatement l'espace disque et la batterie
-[2025-07-15 00:02:45,561] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:45,562] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:45,563] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, let's tackle this query. The user provided system metrics in a specific format and wants a JSON response with an alert, severity, and action. The instructions say to respond strictly in valid JSON without any extra text. The language must be French. First, I need to parse the input data. The disk usage is at 95.7, which is marked as critical and stable. The battery is at 97 but also critical. Wait, usually high battery isn't critical
-[2025-07-15 00:02:46,005] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:46,006] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:46,006] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, let's see. The user provided a system status with various metrics. The main issues here are the disk usage at 95.7 and battery at 97, both marked as critical. The overall status is critical. First, I need to determine the most severe alerts. Disk usage over 90 is usually a problem because it can lead to performance issues or system crashes. Battery at 97 might be a typo since batteries typically don't go
-[2025-07-15 00:02:46,006] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:02:57,237] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:02:57,939] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:57,940] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:57,940] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, I need to respond to the user's query. They provided a system status with CPU, RAM, DISK, TEMP, GPU, and BATTERY stats. The DISK is at 95.7, which is critical, and the BATTERY is at 97, also critical. First, I should identify the most critical issues. The DISK is nearly full, which can cause serious problems like system crashes or data loss. The battery is high, but since it
-[2025-07-15 00:02:58,349] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:58,350] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:58,350] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est à 95.7 d'utilisation et la batterie à 97.0,severitycritical,actionVérifier l'utilisation du disque et libérer de l'espace. Surveiller attentivement l'état de la batterie.
-[2025-07-15 00:02:58,587] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:02:58,588] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:02:58,588] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertProblème de disque dur, severitycritique, actionVérifier l'espace disque disponible
-[2025-07-15 00:03:03,146] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:03,150] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:03,150] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe système est en état critique en raison de l'utilisation élevée du disque et du niveau de batterie élevé.,severitycritique,actionNettoyer l'espace disque et surveiller l'état de la batterie, car un niveau de charge élevé peut indiquer une anomalie de charge ou une défaillance de la batterie.
-[2025-07-15 00:03:03,398] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:03,400] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:03,400] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertEspace disque faible, batterie presque pleine, severitycritical, actionLibérer de l'espace disque
-[2025-07-15 00:03:03,635] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:03,636] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:03,636] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alert Disque dur presque plein, severity critique, action Vérifiez les fichiers et les données pour libérer de l'espace disque
-[2025-07-15 00:03:03,986] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:03,986] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:03,987] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertNiveau de stockage critique et niveau de batterie critique, severitycritique, actionVérifier l'espace disque disponible et recharger la batterie
-[2025-07-15 00:03:04,248] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:04,248] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:04,249] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertalerte critique,severitycritical,actionVérifiez les composants électroniques et assurez-vous qu'ils sont bien entretenus et fonctionnent à l'aide de frais d'air corrects.
-[2025-07-15 00:03:04,731] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:04,733] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:04,733] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein et la batterie est presque pleine mais le statut global est critique à cause du disque, severitycritical, actionVérifier et libérer de l'espace disque
-[2025-07-15 00:03:05,051] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:05,052] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:05,053] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : safe
-[2025-07-15 00:03:05,806] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:05,807] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:05,807] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein, severitycritique, actionlibérer de l'espace disque
-[2025-07-15 00:03:06,168] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:06,169] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:06,169] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertNiveau de stockage critique et batterie presque vide,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie dès que possible
-[2025-07-15 00:03:06,846] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:06,847] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:06,847] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, let's see. The user provided system metrics and wants me to generate a JSON response based on them. The main issue here is the disk usage at 95.7 which is marked as critical and stable. The battery is also at 97 but labeled as critical. Wait, that's a bit confusing. Usually, high battery percentage isn't critical unless maybe it's overcharging or there's a sensor error. But the user's data says critical, stable
-[2025-07-15 00:03:07,206] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:07,207] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:07,207] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, let's see. The user provided a system status with several metrics. The main issue here is that both DISK and BATTERY are marked as critical. The disk usage is 95.7, which is very high and could lead to performance issues or data loss if not addressed. The battery is at 97, which is also critical, possibly indicating an overcharge or a problem with the battery's health. First, I need to determine the severity. Since both
-[2025-07-15 00:03:07,207] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:03:18,841] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:03:19,617] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:19,618] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:19,618] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, so I need to figure out how to respond to this system status update. The user provided a JSON structure with various system components and their statuses. My task is to generate a JSON response that includes an alert message, severity level, and recommended action based on the given data. First, I'll look at each component - CPU is at 5.7, which is low and stable. That's good, nothing to worry about here. - RAM is at 52.
-[2025-07-15 00:03:20,006] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:20,007] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:20,008] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est à 95.7 d'utilisation et la batterie est à 97.0,severitycritical,actionVérifier l'utilisation du disque et la charge de la batterie.
-[2025-07-15 00:03:20,250] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:20,251] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:20,251] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertDisque dur presque plein, severityCritique, actionVider l'espace disque disponible
-[2025-07-15 00:03:21,187] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:21,188] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:21,188] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein 95,7 et la batterie est presque pleine 97,0 mais en mode critique, il est recommandé de surveiller ces composants pour éviter les problèmes de performances ou d'alimentation., severitycritical, actionVérifier l'espace disque disponible et gérer la charge de la batterie pour assurer une stabilité du système.
-[2025-07-15 00:03:21,459] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:21,460] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:21,460] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertEspace disque faible, severitycritical, actionLibérer de l'espace disque
-[2025-07-15 00:03:21,686] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:21,687] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:21,687] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alert Disque dur presque plein, severity critique, action Vérifiez les fichiers et les données pour libérer de l'espace disque
-[2025-07-15 00:03:22,078] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:22,079] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:22,079] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertAvertissement de capacité de stockage critique et niveau de batterie critique, severitycritical, actionVérifier l'espace disque disponible et la charge de la batterie pour éviter toute perte de données ou interruption du système
-[2025-07-15 00:03:22,285] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:22,286] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:22,286] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertalerte critique,severitycritical,actionvérifier les disques et régler les problèmes potentiels
-[2025-07-15 00:03:22,773] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:22,774] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:22,774] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein et la batterie est presque pleine mais le statut global est critique à cause du disque, severitycritical, actionVérifier et libérer de l'espace disque
-[2025-07-15 00:03:23,100] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:23,101] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:23,102] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : safe
-[2025-07-15 00:03:23,737] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:23,737] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:23,738] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein, severitycritique, actionlibérer de l'espace disque
-[2025-07-15 00:03:24,339] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:24,341] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:24,342] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertAttention, le disque est presque plein et la batterie est presque vide,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie
-[2025-07-15 00:03:24,762] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:24,764] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:24,764] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, let's see. The user provided system metrics and wants me to generate a JSON response based on them. The key points here are the disk usage at 95.7 which is critical and stable, and the battery at 97 also marked as critical. Wait, usually a high battery percentage isn't critical unless maybe it's overcharging or there's an issue. But according to the data given, both disk and battery are flagged as critical. The global status is critical
-[2025-07-15 00:03:25,428] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:25,428] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:25,430] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, let's see. The user provided a system status with various metrics. The main issues here are the disk usage at 95.7 and battery at 97 both marked as critical. The overall status is critical. First, I need to determine the most pressing problem. High disk usage can cause system slowdowns or crashes if not addressed. A battery at 97 might be a typo since batteries usually don't go over 100, but
-[2025-07-15 00:03:25,430] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:03:36,661] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:03:37,440] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:37,441] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:37,441] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : Okay, so I need to figure out how to respond to this system status update. The user provided a bunch of metrics CPU, RAM, DISK, TEMP, GPU, and BATTERY. Each has a percentage and a status. The overall status is critical. First, I should look at each metric. CPU is at 11, which seems low, so that's stable. RAM is 52.6, also stable. DISK is 95.7, which
-[2025-07-15 00:03:37,843] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:37,844] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:37,844] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : json alert Le disque est à 95.7 d'utilisation et la batterie est à 98.0., severity critical, action Vérifier l'utilisation du disque et charger la batterie.
-[2025-07-15 00:03:38,105] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:38,106] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:38,106] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertDisque dur presque plein, severitycritique, actionVider le disque dur ou ajouter de l'espace disque
-[2025-07-15 00:03:38,873] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:38,874] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:38,874] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein et la batterie est presque pleine, mais le statut global est critique en raison du disque, severitycritique, actionLibérer de l'espace disque pour éviter les problèmes de performances et de stabilité
-[2025-07-15 00:03:39,155] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:39,156] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:39,156] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertEspace disque faible, batterie presque pleine, severitycritical, actionLibérer de l'espace disque
-[2025-07-15 00:03:39,428] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:39,430] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:39,430] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alert Disque dur presque plein, severity critique, action Vérifiez les fichiers et les données stockées pour libérer de l'espace
-[2025-07-15 00:03:39,750] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:03:39,751] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:03:39,752] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertAvertissement de capacité de stockage critique et niveau de batterie critique, severitycritical, actionVérifier l'espace disque disponible et recharger la batterie si nécessaire
-[2025-07-15 00:03:39,964] INFO - SkyNotify - Arrêt demandé par l'utilisateur
-[2025-07-15 00:03:39,994] INFO - SkyNotify - SkyNotify Pro arrêté
-[2025-07-15 00:03:45,184] INFO - SkyNotify - Démarrage de SkyNotify Pro
-[2025-07-15 00:04:53,549] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:04:54,892] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:04:54,895] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:04:54,895] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté ! Le disque est presque plein et la batterie est presque vide.,severitycritical,actionVérifiez l'espace disque disponible et chargez votre batterie dès que possible.
-[2025-07-15 00:04:54,896] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:05:06,035] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:05:06,490] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:05:06,492] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:05:06,493] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté disque plein et batterie presque vide,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie dès que possible
-[2025-07-15 00:05:06,494] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:05:17,774] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:05:18,246] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:05:18,247] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:05:18,248] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté ! Le disque est presque plein et la batterie est presque vide.,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie dès que possible.
-[2025-07-15 00:05:18,248] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:05:29,390] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:05:29,784] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:05:29,786] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:05:29,786] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté, severitycritical, actionVérifiez l'espace disque et le niveau de charge de la batterie
-[2025-07-15 00:05:29,787] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:05:41,052] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:05:41,434] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:05:41,436] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:05:41,436] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté,severitycritical,actionVérifiez l'espace disque et le niveau de charge de la batterie
-[2025-07-15 00:05:41,436] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:05:52,714] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:05:53,117] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:05:53,118] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:05:53,118] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertAlerte disque critique et batterie critique,severitycritical,actionVérifiez l'espace disque disponible et chargez la batterie
-[2025-07-15 00:05:53,118] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:06:04,397] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:06:04,897] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:06:04,899] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:06:04,900] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté, severitycritical, actionVérifiez l'espace disque et le niveau de charge de la batterie
-[2025-07-15 00:06:04,900] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:06:16,170] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:06:16,542] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:06:16,591] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:06:16,591] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté, severitycritical, actionVérifiez l'espace disque et le niveau de charge de la batterie
-[2025-07-15 00:06:16,592] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:06:27,877] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:06:28,292] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:06:28,294] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:06:28,294] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté, severitycritical, actionVérifiez l'espace disque et le niveau de charge de la batterie
-[2025-07-15 00:06:28,294] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:06:39,572] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:06:39,991] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:06:39,992] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:06:39,992] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertLe disque est presque plein et la batterie est presque vide,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie
-[2025-07-15 00:06:39,992] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:06:51,292] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:06:51,752] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:06:51,753] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:06:51,754] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertAlerte de stockage critique votre disque est presque plein !,severitycritical,actionVérifiez vos fichiers et supprimez les éléments inutiles pour libérer de l'espace.
-[2025-07-15 00:06:51,754] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:07:02,900] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:07:03,358] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:07:03,360] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:07:03,360] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertAlerte critique disque et batterie presque pleins,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie si nécessaire
-[2025-07-15 00:07:03,361] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:07:14,647] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:07:15,184] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:07:15,185] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:07:15,186] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté disque plein et batterie faible,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie
-[2025-07-15 00:07:15,187] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:07:26,464] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:07:26,973] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:07:26,974] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:07:26,975] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté ! Le disque est presque plein et la batterie est presque vide.,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie dès que possible.
-[2025-07-15 00:07:26,975] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:07:38,248] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:07:39,600] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:07:39,603] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:07:39,603] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté,severitycritical,actionVérifiez l'espace disque et le niveau de charge de la batterie
-[2025-07-15 00:07:39,604] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:07:50,891] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:07:51,349] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:07:51,350] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:07:51,350] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté ! Le disque est presque plein et la batterie est faible.,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie dès que possible.
-[2025-07-15 00:07:51,352] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:08:02,623] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:08:03,477] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:08:03,478] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:08:03,478] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté ! Le disque est presque plein et la batterie est faible.,severitycritical,actionVérifiez l'espace disque disponible et chargez votre batterie dès que possible.
-[2025-07-15 00:08:03,478] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:08:14,757] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:08:16,018] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:08:16,019] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:08:16,019] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté disque plein et batterie faible,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie
-[2025-07-15 00:08:16,019] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:08:27,303] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:08:27,679] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:08:27,680] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:08:27,681] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté, severitycritical, actionVérifiez l'espace disque et le niveau de batterie
-[2025-07-15 00:08:27,681] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:08:38,949] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:08:39,370] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:08:39,372] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:08:39,373] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté, severitycritical, actionVérifiez l'espace disque et le niveau de charge de la batterie
-[2025-07-15 00:08:39,373] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:08:50,656] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:08:51,126] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:08:51,127] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:08:51,128] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté ! Le disque est presque plein et la batterie est faible.,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie dès que possible.
-[2025-07-15 00:08:51,128] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:09:02,413] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:09:02,843] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:09:02,844] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:09:02,844] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté disque plein et batterie faible,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie
-[2025-07-15 00:09:02,844] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:09:13,977] WARNING - SkyNotify - Déclenchement alerte: critical
-[2025-07-15 00:09:14,481] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 00:09:14,482] WARNING - SkyNotify - Réponse non JSON brut, tentative extraction via regex…
-[2025-07-15 00:09:14,483] ERROR - SkyNotify - Erreur de parsing JSON après toutes tentatives. Réponse brute : alertÉtat critique détecté ! Le disque est presque plein et la batterie est faible.,severitycritical,actionVérifiez l'espace disque disponible et rechargez la batterie dès que possible.
-[2025-07-15 00:09:14,483] ERROR - SkyNotify - Impossible de générer une alerte structurée.
-[2025-07-15 00:09:18,446] INFO - SkyNotify - Arrêt demandé par l'utilisateur
-[2025-07-15 00:09:18,477] INFO - SkyNotify - SkyNotify Pro arrêté
+[2025-07-16 18:49:44,253] INFO - httpx - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+[2025-07-16 18:49:44,258] INFO - SkyNotify - Démarrage de SkyNotify Pro
+[2025-07-16 18:50:52,385] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:50:53,607] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:50:53,610] INFO - SkyNotify - Message alerte: Alerte système attention, votre disque dur est presque plein, à 91,3. Vérifiez vos fichiers et libérez de l'espace pour éviter tout ralentissement. État global critique.
+[2025-07-16 18:50:53,613] ERROR - SkyNotify - Erreur récupération voix TTS : type object 'Config' has no attribute 'TTS_CONFIG'
+[2025-07-16 18:50:53,613] ERROR - SkyNotify - Erreur TTS : Aucune voix disponible pour la synthèse vocale.
+[2025-07-16 18:50:53,613] ERROR - SkyNotify - Échec génération audio
+[2025-07-16 18:51:04,805] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:51:05,778] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:51:05,780] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque saturé, à 91,3. Il est urgent de libérer de l'espace pour éviter une perte de données. Veuillez prendre des mesures immédiates pour résoudre ce problème critique.
+[2025-07-16 18:51:05,780] ERROR - SkyNotify - Erreur récupération voix TTS : type object 'Config' has no attribute 'TTS_CONFIG'
+[2025-07-16 18:51:05,782] ERROR - SkyNotify - Erreur TTS : Aucune voix disponible pour la synthèse vocale.
+[2025-07-16 18:51:05,782] ERROR - SkyNotify - Échec génération audio
+[2025-07-16 18:51:16,963] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:51:17,767] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:51:17,768] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque saturé, à 91,3. Bien que les autres composants soient stables, cette situation critique nécessite une attention immédiate pour éviter tout dysfonctionnement.
+[2025-07-16 18:51:17,769] ERROR - SkyNotify - Erreur récupération voix TTS : type object 'Config' has no attribute 'TTS_CONFIG'
+[2025-07-16 18:51:17,769] ERROR - SkyNotify - Erreur TTS : Aucune voix disponible pour la synthèse vocale.
+[2025-07-16 18:51:17,769] ERROR - SkyNotify - Échec génération audio
+[2025-07-16 18:51:28,966] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:51:29,594] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:51:29,598] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque plein, à 91,3. Veuillez libérer de l'espace pour éviter tout dysfonctionnement. Statut global critique.
+[2025-07-16 18:51:29,598] ERROR - SkyNotify - Erreur récupération voix TTS : type object 'Config' has no attribute 'TTS_CONFIG'
+[2025-07-16 18:51:29,598] ERROR - SkyNotify - Erreur TTS : Aucune voix disponible pour la synthèse vocale.
+[2025-07-16 18:51:29,599] ERROR - SkyNotify - Échec génération audio
+[2025-07-16 18:51:40,790] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:51:41,480] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:51:41,482] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque saturé, à 91,3. Bien que les autres composants soient stables, ce niveau de stockage critique nécessite une attention immédiate pour éviter tout dysfonctionnement.
+[2025-07-16 18:51:41,482] ERROR - SkyNotify - Erreur récupération voix TTS : type object 'Config' has no attribute 'TTS_CONFIG'
+[2025-07-16 18:51:41,483] ERROR - SkyNotify - Erreur TTS : Aucune voix disponible pour la synthèse vocale.
+[2025-07-16 18:51:41,483] ERROR - SkyNotify - Échec génération audio
+[2025-07-16 18:51:52,620] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:51:53,836] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:51:53,839] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque saturé, à 91,3. Vérifiez les fichiers inutiles et libérez de l'espace pour éviter tout problème. Statut global critique.
+[2025-07-16 18:51:53,840] ERROR - SkyNotify - Erreur récupération voix TTS : type object 'Config' has no attribute 'TTS_CONFIG'
+[2025-07-16 18:51:53,840] ERROR - SkyNotify - Erreur TTS : Aucune voix disponible pour la synthèse vocale.
+[2025-07-16 18:51:53,841] ERROR - SkyNotify - Échec génération audio
+[2025-07-16 18:52:05,013] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:52:05,664] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:52:05,667] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque saturé, à 91,3. Veuillez libérer de l'espace de stockage pour éviter tout ralentissement. Statut global critique.
+[2025-07-16 18:52:05,667] ERROR - SkyNotify - Erreur récupération voix TTS : type object 'Config' has no attribute 'TTS_CONFIG'
+[2025-07-16 18:52:05,668] ERROR - SkyNotify - Erreur TTS : Aucune voix disponible pour la synthèse vocale.
+[2025-07-16 18:52:05,668] ERROR - SkyNotify - Échec génération audio
+[2025-07-16 18:52:16,815] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:52:17,639] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:52:17,640] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque saturé, à 91,3. Bien que les autres composants soient stables, cette situation critique nécessite une attention immédiate pour éviter tout problème de performance.
+[2025-07-16 18:52:17,640] ERROR - SkyNotify - Erreur récupération voix TTS : type object 'Config' has no attribute 'TTS_CONFIG'
+[2025-07-16 18:52:17,641] ERROR - SkyNotify - Erreur TTS : Aucune voix disponible pour la synthèse vocale.
+[2025-07-16 18:52:17,641] ERROR - SkyNotify - Échec génération audio
+[2025-07-16 18:52:28,791] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:52:29,409] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:52:29,409] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque saturé, à 91,3. Veuillez libérer de l'espace de stockage pour éviter tout dysfonctionnement. Statut global critique.
+[2025-07-16 18:52:29,410] ERROR - SkyNotify - Erreur récupération voix TTS : type object 'Config' has no attribute 'TTS_CONFIG'
+[2025-07-16 18:52:29,410] ERROR - SkyNotify - Erreur TTS : Aucune voix disponible pour la synthèse vocale.
+[2025-07-16 18:52:29,410] ERROR - SkyNotify - Échec génération audio
+[2025-07-16 18:52:40,553] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:52:41,218] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:52:41,220] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est presque saturé, à 91,3. Veuillez libérer de l'espace de stockage pour éviter tout ralentissement. État global critique.
+[2025-07-16 18:52:41,221] ERROR - SkyNotify - Erreur récupération voix TTS : type object 'Config' has no attribute 'TTS_CONFIG'
+[2025-07-16 18:52:41,221] ERROR - SkyNotify - Erreur TTS : Aucune voix disponible pour la synthèse vocale.
+[2025-07-16 18:52:41,221] ERROR - SkyNotify - Échec génération audio
+[2025-07-16 18:52:52,355] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:52:53,128] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:52:53,130] INFO - SkyNotify - Message alerte: Alerte système ! Le disque dur est à 91,3 de sa capacité, niveau critique. Vérifiez vos fichiers et libérez de l'espace pour éviter tout ralentissement. Les autres composants sont stables pour l'instant.
+[2025-07-16 18:52:53,131] ERROR - SkyNotify - Erreur récupération voix TTS : type object 'Config' has no attribute 'TTS_CONFIG'
+[2025-07-16 18:52:53,131] ERROR - SkyNotify - Erreur TTS : Aucune voix disponible pour la synthèse vocale.
+[2025-07-16 18:52:53,131] ERROR - SkyNotify - Échec génération audio
+[2025-07-16 18:52:56,082] INFO - SkyNotify - Arrêt demandé par l'utilisateur
+[2025-07-16 18:52:56,110] INFO - SkyNotify - SkyNotify Pro arrêté
+[2025-07-16 18:53:02,400] INFO - httpx - HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+[2025-07-16 18:53:02,406] INFO - SkyNotify - Démarrage de SkyNotify Pro
+[2025-07-16 18:54:10,444] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:54:11,008] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:54:11,012] INFO - SkyNotify - Message alerte: Attention, statut critique ! Le disque est presque plein, à 91,3. Vérifiez l'espace de stockage pour éviter les perturbations.
+[2025-07-16 18:56:43,626] WARNING - SkyNotify - Déclenchement alerte: critical
+[2025-07-16 18:56:44,445] INFO - httpx - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-16 18:56:44,447] INFO - SkyNotify - Message alerte: Attention, le disque est presque plein ! 91,3 d'utilisation. Vérifiez l'espace disque pour éviter des pertes de données.
